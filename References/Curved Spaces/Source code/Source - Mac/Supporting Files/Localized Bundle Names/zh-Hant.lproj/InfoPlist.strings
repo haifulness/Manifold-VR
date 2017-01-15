@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys (Chinese - traditional characters) */
+
+"CFBundleDisplayName"	= "彎曲空間";	/* program's de facto filename (in Finder) */
+"CFBundleName"			= "彎曲空間";	/* program's Application menu name         */

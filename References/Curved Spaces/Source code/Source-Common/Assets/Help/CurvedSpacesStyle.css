@@ -1,0 +1,212 @@
+body
+{
+	/*
+	 *	For Western languages:
+	 *		"Times New Roman" and "Times" are the PC and Mac names
+	 *		for the same font.
+	 *
+	 *	For East Asian languages:
+	 *		Mac OS X  takes "sans-serif" and provides a good-looking font.
+	 *		Windows 7 takes "sans-serif" and provides an ugly non-smoothed
+	 *			font by default.  For better results, we must name
+	 *			an appropriate ClearType font explicitly (see below).
+	 */
+	font-family:		"Times New Roman", Times, serif;
+	background-color:	#A0C0FF;
+}
+body:lang(ar)		{direction: rtl; font-family: "Simplified Arabic"}
+body:lang(ja)		{font-family: Meiryo, メイリオ, sans-serif}
+body:lang(ko)		{font-family: "Malgun Gothic", "맑은 고딕", sans-serif}
+body:lang(zh-Hans)	{font-family: "Microsoft YaHei", 微软雅黑, sans-serif}
+body:lang(zh-Hant)	{font-family: "Microsoft JhengHei", 微軟正黑體, sans-serif}
+
+#NavigationPanel
+{
+	position:			absolute;
+	left:				16;
+	top:				16;
+	width:				128pt;
+	min-height:			320pt;	/* was 360pt */
+	padding-left:		16pt;
+	padding-right:		16pt;
+	padding-top:		12pt;
+	padding-bottom:		12pt;
+	background-image:	url(stone64.jpg);
+	color:				#D0D0D0;
+	font-size:			72pt;	/*	font-size gets overridden	*/
+}
+
+p.nav0
+{
+	font-size:			14pt;
+	text-indent:		0;
+	margin-top:			0;
+	margin-bottom:		0;
+}
+p.nav0:lang(ja) {font-size: 12pt; line-height: 1.5}
+
+p.nav1
+{
+	font-size:			13pt;
+	text-indent:		0;		/*	overridden for each language	*/
+	margin-top:			0;
+	margin-bottom:		0;
+}
+p.nav1:lang(en) {text-indent: 16pt}
+p.nav1:lang(es) {text-indent: 16pt}
+p.nav1:lang(fr) {text-indent:  8pt}
+p.nav1:lang(ja) {text-indent:  8pt; font-size: 11pt; line-height: 1.2}
+p.nav1:lang(zh) {text-indent: 16pt}
+
+p.nav2
+{
+	font-size:			12pt;
+	text-indent:		0;		/*	overridden for each language	*/
+	margin-top:			0;
+	margin-bottom:		0;
+}
+p.nav2:lang(en) {text-indent: 30pt}
+p.nav2:lang(es) {text-indent: 28pt}
+p.nav2:lang(fr) {text-indent: 16pt}
+p.nav2:lang(ja) {text-indent: 16pt; font-size: 10pt; line-height: 1.2}
+p.nav2:lang(zh) {text-indent: 30pt}
+
+a.nav
+{
+	color:				#D0D0D0;
+	text-decoration:	none;
+}
+
+a.nav:hover
+{
+	color:				#FFFFFF;
+	text-decoration:	underline;
+}
+
+span.nav
+{
+	color:				#80B0FF;
+	font-style:			italic;
+}
+span.nav:lang(ja) {font-style: normal}
+span.nav:lang(zh) {font-style: normal}
+
+#FinePrint
+{
+	position:			absolute;
+	bottom:				0;
+	left:				0;
+	right:				0;
+	padding-left:		16pt;
+	padding-right:		16pt;
+	padding-bottom:		8pt;
+	font-size:			0;		/*	overridden for each language	*/
+}
+#FinePrint:lang(en) {font-size: 8pt}
+#FinePrint:lang(es) {font-size: 8pt}
+#FinePrint:lang(fr) {font-size: 7.5pt}
+#FinePrint:lang(ja) {font-size: 8pt; line-height: 1.2}
+#FinePrint:lang(zh) {font-size: 8pt}
+
+p.finePrint
+{
+}
+
+a.finePrint
+{
+	color:				#D0D0D0;
+	text-decoration:	underline;
+}
+a.finePrint:lang(ja) {font-size: 7pt; line-height: 1.2}
+
+a.finePrint:hover
+{
+	color:				#FFFFFF;
+	text-decoration:	underline;
+}
+
+
+#TextPanel
+{
+	position:			absolute;
+	left:				176pt;
+	top:				0;
+	padding-left:		16pt;
+	padding-right:		16pt;
+	color:				#000080;
+	font-size:			14pt;
+}
+
+h1.welcomeTitle
+{
+	text-align:			center;
+	font-size:			24pt;
+}
+
+h1.textTitle
+{
+	text-align:			left;
+	font-size:			21pt;
+}
+
+li.spaced
+{
+	margin-top:			8pt;
+	margin-bottom:		8pt;
+}
+
+p.parentTitle
+{
+	font-size:			14pt;
+	font-style:			italic;
+	text-align:			right;
+	margin-top:			12pt;
+	margin-bottom:		0;
+}
+p.parentTitle:lang(ja) {font-style: normal; font-family: serif}
+p.parentTitle:lang(zh) {font-style: normal}
+
+p.smallText
+{
+	font-size:			10pt;
+}
+
+p.figureImage
+{
+	text-align:			center;
+	margin-top:			16pt;
+	margin-bottom:		4pt;
+}
+
+p.figureCaption
+{
+	font-size:			10pt;
+	text-align:			left;
+	margin-left:		32pt;
+	margin-right:		32pt;
+	margin-top:			0;
+	margin-bottom:		0;
+}
+
+p.subtopicTitle
+{
+	font-style:			italic;
+	font-weight:		bold;
+}
+p.subtopicTitle:lang(ja) {font-style: normal; font-family: serif}
+p.subtopicTitle:lang(zh) {font-style: normal}
+
+p.subtopicText
+{
+	padding-left:		8pt;
+}
+
+i.smaller
+{
+	font-size:			smaller;
+}
+
+blockquote.footnote
+{
+	font-size:			smaller;
+}

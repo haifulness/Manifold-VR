@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F178542149A589900A00F66 /* GeometryGamesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F178541149A589900A00F66 /* GeometryGamesModel.m */; };
+		1F18B09E1333D74E00CABD8F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F18B09D1333D74E00CABD8F /* CoreVideo.framework */; };
+		1F18B0A01333D77500CABD8F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F18B09F1333D77500CABD8F /* OpenGL.framework */; };
+		1F219B9B1334FBB200A4E58B /* CurvedSpacesDummyMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F219B9A1334FBB200A4E58B /* CurvedSpacesDummyMenu.xib */; };
+		1F2588CD14D06839006FD641 /* GeometryGamesViewMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2588CA14D06839006FD641 /* GeometryGamesViewMac.m */; };
+		1F2588CE14D06839006FD641 /* GeometryGamesWindowMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2588CC14D06839006FD641 /* GeometryGamesWindowMac.m */; };
+		1F278C5E13575C8100049FBB /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F278C5D13575C8100049FBB /* Credits.html */; };
+		1F27D67016E225E0002215F9 /* GeometryGamesAppDelegateMac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F27D66F16E225E0002215F9 /* GeometryGamesAppDelegateMac.m */; };
+		1F48C29719A3A5D9001C6F3B /* Help in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29119A3A5D9001C6F3B /* Help */; };
+		1F48C29819A3A5D9001C6F3B /* Languages in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29219A3A5D9001C6F3B /* Languages */; };
+		1F48C29919A3A5D9001C6F3B /* Sample Spaces in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29319A3A5D9001C6F3B /* Sample Spaces */; };
+		1F48C29A19A3A5D9001C6F3B /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29419A3A5D9001C6F3B /* Shaders */; };
+		1F48C29B19A3A5D9001C6F3B /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29519A3A5D9001C6F3B /* Textures */; };
+		1F48C29C19A3A5D9001C6F3B /* Thanks in Resources */ = {isa = PBXBuildFile; fileRef = 1F48C29619A3A5D9001C6F3B /* Thanks */; };
+		1F48C42F19A3C512001C6F3B /* CurvedSpacesClifford.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C41E19A3C512001C6F3B /* CurvedSpacesClifford.c */; };
+		1F48C43019A3C512001C6F3B /* CurvedSpacesColors.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C41F19A3C512001C6F3B /* CurvedSpacesColors.c */; };
+		1F48C43119A3C512001C6F3B /* CurvedSpacesDirichlet.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42019A3C512001C6F3B /* CurvedSpacesDirichlet.c */; };
+		1F48C43219A3C512001C6F3B /* CurvedSpacesEarth.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42119A3C512001C6F3B /* CurvedSpacesEarth.c */; };
+		1F48C43319A3C512001C6F3B /* CurvedSpacesFileIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42219A3C512001C6F3B /* CurvedSpacesFileIO.c */; };
+		1F48C43419A3C512001C6F3B /* CurvedSpacesGalaxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42319A3C512001C6F3B /* CurvedSpacesGalaxy.c */; };
+		1F48C43519A3C512001C6F3B /* CurvedSpacesGraphics-OpenGL.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42419A3C512001C6F3B /* CurvedSpacesGraphics-OpenGL.c */; };
+		1F48C43619A3C512001C6F3B /* CurvedSpacesGyroscope.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42519A3C512001C6F3B /* CurvedSpacesGyroscope.c */; };
+		1F48C43719A3C512001C6F3B /* CurvedSpacesHantzscheWendt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42619A3C512001C6F3B /* CurvedSpacesHantzscheWendt.c */; };
+		1F48C43819A3C512001C6F3B /* CurvedSpacesInit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42719A3C512001C6F3B /* CurvedSpacesInit.c */; };
+		1F48C43919A3C512001C6F3B /* CurvedSpacesMatrices.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42819A3C512001C6F3B /* CurvedSpacesMatrices.c */; };
+		1F48C43A19A3C512001C6F3B /* CurvedSpacesMouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42919A3C512001C6F3B /* CurvedSpacesMouse.c */; };
+		1F48C43B19A3C512001C6F3B /* CurvedSpacesObserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42A19A3C512001C6F3B /* CurvedSpacesObserver.c */; };
+		1F48C43C19A3C512001C6F3B /* CurvedSpacesOptions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42B19A3C512001C6F3B /* CurvedSpacesOptions.c */; };
+		1F48C43D19A3C512001C6F3B /* CurvedSpacesSafeMath.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42C19A3C512001C6F3B /* CurvedSpacesSafeMath.c */; };
+		1F48C43E19A3C512001C6F3B /* CurvedSpacesSimulation.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42D19A3C512001C6F3B /* CurvedSpacesSimulation.c */; };
+		1F48C43F19A3C512001C6F3B /* CurvedSpacesTiling.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F48C42E19A3C512001C6F3B /* CurvedSpacesTiling.c */; };
+		1F568BA413437FB8001027BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F568BA213437FB8001027BE /* InfoPlist.strings */; };
+		1F723B1B1333CA7A0091FC63 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F723B1A1333CA7A0091FC63 /* Cocoa.framework */; };
+		1F7BC5841CD1358B00B6932D /* GeometryGamesGraphicsDataGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7BC5831CD1358B00B6932D /* GeometryGamesGraphicsDataGL.m */; };
+		1F8245F11C80C77C00E926FD /* CurvedSpacesView.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F8245F01C80C77C00E926FD /* CurvedSpacesView.c */; };
+		1F8CE11813466DAA0038450A /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8CE11713466DAA0038450A /* QTKit.framework */; };
+		1FB058C71334EA9900D6CE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB058C21334EA9900D6CE10 /* main.m */; };
+		1FC2694017F2D41D00D217D9 /* GeometryGamesLocalization.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2693617F2D41D00D217D9 /* GeometryGamesLocalization.c */; };
+		1FC2694117F2D41D00D217D9 /* GeometryGamesMatrix44.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2693817F2D41D00D217D9 /* GeometryGamesMatrix44.c */; };
+		1FC2694217F2D41D00D217D9 /* GeometryGamesUtilities-Common.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2693A17F2D41D00D217D9 /* GeometryGamesUtilities-Common.c */; };
+		1FC2694317F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2693D17F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.m */; };
+		1FC2694417F2D41D00D217D9 /* GeometryGamesUtilities-Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2693F17F2D41D00D217D9 /* GeometryGamesUtilities-Mac.m */; };
+		1FC68F4D1BFCDCF700BF654A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC68F4C1BFCDCF700BF654A /* Images.xcassets */; };
+		1FCDE7F916E1305C0016A00C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDE7F816E1305C0016A00C /* WebKit.framework */; };
+		1FCED20016E7876B008F1452 /* GeometryGamesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCED1FF16E7876B008F1452 /* GeometryGamesWindowController.m */; };
+		1FDA3AD11334E90000453CDB /* GeometryGames-OpenGL.c in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA3ACF1334E90000453CDB /* GeometryGames-OpenGL.c */; };
+		1FDA3ADE1334E97D00453CDB /* CurvedSpacesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA3AD91334E97D00453CDB /* CurvedSpacesAppDelegate.m */; settings = {COMPILER_FLAGS = "-Wno-unused-parameter"; }; };
+		1FDA3ADF1334E97D00453CDB /* CurvedSpacesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA3ADB1334E97D00453CDB /* CurvedSpacesView.m */; settings = {COMPILER_FLAGS = "-Wno-unused-parameter"; }; };
+		1FDA3AE01334E97D00453CDB /* CurvedSpacesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FDA3ADD1334E97D00453CDB /* CurvedSpacesWindowController.m */; settings = {COMPILER_FLAGS = "-Wno-unused-parameter"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F12050819A4C6B8008E1F67 /* GeometryGamesUtilities-Win.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "GeometryGamesUtilities-Win.c"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Win.c"; sourceTree = "<group>"; };
+		1F12050919A4C6B8008E1F67 /* GeometryGamesUtilities-Win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GeometryGamesUtilities-Win.h"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Win.h"; sourceTree = "<group>"; };
+		1F17853D149A585200A00F66 /* GeometryGames-Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeometryGames-Common.h"; path = "../../../Shared/GeometryGames-Common.h"; sourceTree = "<group>"; };
+		1F178540149A589900A00F66 /* GeometryGamesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesModel.h; path = "../../../Shared/Geometry Games Classes - Mac-iOS/GeometryGamesModel.h"; sourceTree = "<group>"; };
+		1F178541149A589900A00F66 /* GeometryGamesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesModel.m; path = "../../../Shared/Geometry Games Classes - Mac-iOS/GeometryGamesModel.m"; sourceTree = "<group>"; };
+		1F18B09D1333D74E00CABD8F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1F18B09F1333D77500CABD8F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1F18D2D51538A63F0061684F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "Supporting Files/Localized Bundle Names/es.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F219B9A1334FBB200A4E58B /* CurvedSpacesDummyMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CurvedSpacesDummyMenu.xib; path = "XIB Files/CurvedSpacesDummyMenu.xib"; sourceTree = "<group>"; };
+		1F2588C914D06839006FD641 /* GeometryGamesViewMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesViewMac.h; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesViewMac.h"; sourceTree = "<group>"; };
+		1F2588CA14D06839006FD641 /* GeometryGamesViewMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesViewMac.m; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesViewMac.m"; sourceTree = "<group>"; };
+		1F2588CB14D06839006FD641 /* GeometryGamesWindowMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesWindowMac.h; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesWindowMac.h"; sourceTree = "<group>"; };
+		1F2588CC14D06839006FD641 /* GeometryGamesWindowMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesWindowMac.m; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesWindowMac.m"; sourceTree = "<group>"; };
+		1F278C5D13575C8100049FBB /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Credits.html; path = "Supporting Files/Credits.html"; sourceTree = "<group>"; };
+		1F27D66E16E225E0002215F9 /* GeometryGamesAppDelegateMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesAppDelegateMac.h; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesAppDelegateMac.h"; sourceTree = "<group>"; };
+		1F27D66F16E225E0002215F9 /* GeometryGamesAppDelegateMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesAppDelegateMac.m; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesAppDelegateMac.m"; sourceTree = "<group>"; };
+		1F34D9A8175F700A005DB08A /* CurvedSpaces-Win32-WinMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "CurvedSpaces-Win32-WinMain.c"; path = "../Source - Win/CurvedSpaces-Win32-WinMain.c"; sourceTree = "<group>"; };
+		1F34D9A9175F700A005DB08A /* CurvedSpaces-Win32-WndProc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "CurvedSpaces-Win32-WndProc.c"; path = "../Source - Win/CurvedSpaces-Win32-WndProc.c"; sourceTree = "<group>"; };
+		1F34D9AA175F700A005DB08A /* CurvedSpaces-Win32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CurvedSpaces-Win32.h"; path = "../Source - Win/CurvedSpaces-Win32.h"; sourceTree = "<group>"; };
+		1F34D9AB175F7036005DB08A /* GeometryGames-Win32-WinMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "GeometryGames-Win32-WinMain.c"; path = "../../../Shared/Geometry Games Core - Win/GeometryGames-Win32-WinMain.c"; sourceTree = "<group>"; };
+		1F34D9AC175F7036005DB08A /* GeometryGames-Win32-WndProc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "GeometryGames-Win32-WndProc.c"; path = "../../../Shared/Geometry Games Core - Win/GeometryGames-Win32-WndProc.c"; sourceTree = "<group>"; };
+		1F34D9AD175F7036005DB08A /* GeometryGames-Win32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GeometryGames-Win32.h"; path = "../../../Shared/Geometry Games Core - Win/GeometryGames-Win32.h"; sourceTree = "<group>"; };
+		1F48C29119A3A5D9001C6F3B /* Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Help; path = "../Source-Common/Assets/Help"; sourceTree = "<group>"; };
+		1F48C29219A3A5D9001C6F3B /* Languages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Languages; path = "../Source-Common/Assets/Languages"; sourceTree = "<group>"; };
+		1F48C29319A3A5D9001C6F3B /* Sample Spaces */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Sample Spaces"; path = "../Source-Common/Assets/Sample Spaces"; sourceTree = "<group>"; };
+		1F48C29419A3A5D9001C6F3B /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = "../Source-Common/Assets/Shaders"; sourceTree = "<group>"; };
+		1F48C29519A3A5D9001C6F3B /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = "../Source-Common/Assets/Textures"; sourceTree = "<group>"; };
+		1F48C29619A3A5D9001C6F3B /* Thanks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Thanks; path = "../Source-Common/Assets/Thanks"; sourceTree = "<group>"; };
+		1F48C41D19A3C512001C6F3B /* CurvedSpaces-Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CurvedSpaces-Common.h"; sourceTree = "<group>"; };
+		1F48C41E19A3C512001C6F3B /* CurvedSpacesClifford.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesClifford.c; sourceTree = "<group>"; };
+		1F48C41F19A3C512001C6F3B /* CurvedSpacesColors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesColors.c; sourceTree = "<group>"; };
+		1F48C42019A3C512001C6F3B /* CurvedSpacesDirichlet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesDirichlet.c; sourceTree = "<group>"; };
+		1F48C42119A3C512001C6F3B /* CurvedSpacesEarth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesEarth.c; sourceTree = "<group>"; };
+		1F48C42219A3C512001C6F3B /* CurvedSpacesFileIO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesFileIO.c; sourceTree = "<group>"; };
+		1F48C42319A3C512001C6F3B /* CurvedSpacesGalaxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesGalaxy.c; sourceTree = "<group>"; };
+		1F48C42419A3C512001C6F3B /* CurvedSpacesGraphics-OpenGL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "CurvedSpacesGraphics-OpenGL.c"; sourceTree = "<group>"; };
+		1F48C42519A3C512001C6F3B /* CurvedSpacesGyroscope.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesGyroscope.c; sourceTree = "<group>"; };
+		1F48C42619A3C512001C6F3B /* CurvedSpacesHantzscheWendt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesHantzscheWendt.c; sourceTree = "<group>"; };
+		1F48C42719A3C512001C6F3B /* CurvedSpacesInit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesInit.c; sourceTree = "<group>"; };
+		1F48C42819A3C512001C6F3B /* CurvedSpacesMatrices.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesMatrices.c; sourceTree = "<group>"; };
+		1F48C42919A3C512001C6F3B /* CurvedSpacesMouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesMouse.c; sourceTree = "<group>"; };
+		1F48C42A19A3C512001C6F3B /* CurvedSpacesObserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesObserver.c; sourceTree = "<group>"; };
+		1F48C42B19A3C512001C6F3B /* CurvedSpacesOptions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesOptions.c; sourceTree = "<group>"; };
+		1F48C42C19A3C512001C6F3B /* CurvedSpacesSafeMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesSafeMath.c; sourceTree = "<group>"; };
+		1F48C42D19A3C512001C6F3B /* CurvedSpacesSimulation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesSimulation.c; sourceTree = "<group>"; };
+		1F48C42E19A3C512001C6F3B /* CurvedSpacesTiling.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesTiling.c; sourceTree = "<group>"; };
+		1F568BA313437FB8001027BE /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = "Supporting Files/Localized Bundle Names/en.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F568BA513437FD9001027BE /* fr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = fr; path = "Supporting Files/Localized Bundle Names/fr.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F568BA613437FE9001027BE /* ja */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ja; path = "Supporting Files/Localized Bundle Names/ja.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F56B00B170F2FD700F75068 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "Supporting Files/Localized Bundle Names/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F56B00C170F302700F75068 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "Supporting Files/Localized Bundle Names/zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F723B161333CA7A0091FC63 /* CurvedSpaces-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CurvedSpaces-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F723B1A1333CA7A0091FC63 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1F723B1D1333CA7A0091FC63 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1F723B1E1333CA7A0091FC63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1F723B1F1333CA7A0091FC63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F7BC54A1CD101F000B6932D /* CurvedSpacesGraphics-OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CurvedSpacesGraphics-OpenGL.h"; sourceTree = "<group>"; };
+		1F7BC5821CD1358B00B6932D /* GeometryGamesGraphicsDataGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesGraphicsDataGL.h; path = "../../../Shared/Geometry Games Classes - Mac-iOS/GeometryGamesGraphicsDataGL.h"; sourceTree = "<group>"; };
+		1F7BC5831CD1358B00B6932D /* GeometryGamesGraphicsDataGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesGraphicsDataGL.m; path = "../../../Shared/Geometry Games Classes - Mac-iOS/GeometryGamesGraphicsDataGL.m"; sourceTree = "<group>"; };
+		1F8245F01C80C77C00E926FD /* CurvedSpacesView.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CurvedSpacesView.c; sourceTree = "<group>"; };
+		1F8CE11713466DAA0038450A /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		1FB058C21334EA9900D6CE10 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		1FB058C41334EA9900D6CE10 /* CurvedSpaces-Mac-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CurvedSpaces-Mac-Prefix.pch"; path = "Supporting Files/CurvedSpaces-Mac-Prefix.pch"; sourceTree = "<group>"; };
+		1FB058CB1334EAE200D6CE10 /* CurvedSpaces-Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CurvedSpaces-Mac-Info.plist"; path = "Supporting Files/CurvedSpaces-Mac-Info.plist"; sourceTree = "<group>"; };
+		1FC2693617F2D41D00D217D9 /* GeometryGamesLocalization.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GeometryGamesLocalization.c; path = ../../../Shared/GeometryGamesUtilities/GeometryGamesLocalization.c; sourceTree = "<group>"; };
+		1FC2693717F2D41D00D217D9 /* GeometryGamesLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesLocalization.h; path = ../../../Shared/GeometryGamesUtilities/GeometryGamesLocalization.h; sourceTree = "<group>"; };
+		1FC2693817F2D41D00D217D9 /* GeometryGamesMatrix44.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = GeometryGamesMatrix44.c; path = ../../../Shared/GeometryGamesUtilities/GeometryGamesMatrix44.c; sourceTree = "<group>"; };
+		1FC2693917F2D41D00D217D9 /* GeometryGamesMatrix44.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesMatrix44.h; path = ../../../Shared/GeometryGamesUtilities/GeometryGamesMatrix44.h; sourceTree = "<group>"; };
+		1FC2693A17F2D41D00D217D9 /* GeometryGamesUtilities-Common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "GeometryGamesUtilities-Common.c"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Common.c"; sourceTree = "<group>"; };
+		1FC2693B17F2D41D00D217D9 /* GeometryGamesUtilities-Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeometryGamesUtilities-Common.h"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Common.h"; sourceTree = "<group>"; };
+		1FC2693C17F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeometryGamesUtilities-Mac-iOS.h"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Mac-iOS.h"; sourceTree = "<group>"; };
+		1FC2693D17F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GeometryGamesUtilities-Mac-iOS.m"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Mac-iOS.m"; sourceTree = "<group>"; };
+		1FC2693E17F2D41D00D217D9 /* GeometryGamesUtilities-Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeometryGamesUtilities-Mac.h"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Mac.h"; sourceTree = "<group>"; };
+		1FC2693F17F2D41D00D217D9 /* GeometryGamesUtilities-Mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GeometryGamesUtilities-Mac.m"; path = "../../../Shared/GeometryGamesUtilities/GeometryGamesUtilities-Mac.m"; sourceTree = "<group>"; };
+		1FC68F4C1BFCDCF700BF654A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Supporting Files/Images.xcassets"; sourceTree = "<group>"; };
+		1FCDE7F816E1305C0016A00C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1FCED1FE16E7876B008F1452 /* GeometryGamesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeometryGamesWindowController.h; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesWindowController.h"; sourceTree = "<group>"; };
+		1FCED1FF16E7876B008F1452 /* GeometryGamesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeometryGamesWindowController.m; path = "../../../Shared/Geometry Games Classes - Mac/GeometryGamesWindowController.m"; sourceTree = "<group>"; };
+		1FDA3ACF1334E90000453CDB /* GeometryGames-OpenGL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "GeometryGames-OpenGL.c"; path = "../../../Shared/GL3/GeometryGames-OpenGL.c"; sourceTree = "<group>"; };
+		1FDA3AD01334E90000453CDB /* GeometryGames-OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GeometryGames-OpenGL.h"; path = "../../../Shared/GL3/GeometryGames-OpenGL.h"; sourceTree = "<group>"; };
+		1FDA3AD81334E97D00453CDB /* CurvedSpacesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurvedSpacesAppDelegate.h; path = Classes/CurvedSpacesAppDelegate.h; sourceTree = "<group>"; };
+		1FDA3AD91334E97D00453CDB /* CurvedSpacesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurvedSpacesAppDelegate.m; path = Classes/CurvedSpacesAppDelegate.m; sourceTree = "<group>"; };
+		1FDA3ADA1334E97D00453CDB /* CurvedSpacesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurvedSpacesView.h; path = Classes/CurvedSpacesView.h; sourceTree = "<group>"; };
+		1FDA3ADB1334E97D00453CDB /* CurvedSpacesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurvedSpacesView.m; path = Classes/CurvedSpacesView.m; sourceTree = "<group>"; };
+		1FDA3ADC1334E97D00453CDB /* CurvedSpacesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurvedSpacesWindowController.h; path = Classes/CurvedSpacesWindowController.h; sourceTree = "<group>"; };
+		1FDA3ADD1334E97D00453CDB /* CurvedSpacesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurvedSpacesWindowController.m; path = Classes/CurvedSpacesWindowController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F723B131333CA7A0091FC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCDE7F916E1305C0016A00C /* WebKit.framework in Frameworks */,
+				1F8CE11813466DAA0038450A /* QTKit.framework in Frameworks */,
+				1F18B0A01333D77500CABD8F /* OpenGL.framework in Frameworks */,
+				1F18B09E1333D74E00CABD8F /* CoreVideo.framework in Frameworks */,
+				1F723B1B1333CA7A0091FC63 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F17853F149A587D00A00F66 /* Classes - Mac-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F178540149A589900A00F66 /* GeometryGamesModel.h */,
+				1F178541149A589900A00F66 /* GeometryGamesModel.m */,
+				1F7BC5821CD1358B00B6932D /* GeometryGamesGraphicsDataGL.h */,
+				1F7BC5831CD1358B00B6932D /* GeometryGamesGraphicsDataGL.m */,
+			);
+			name = "Classes - Mac-iOS";
+			sourceTree = "<group>";
+		};
+		1F219B991334FB1F00A4E58B /* XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F219B9A1334FBB200A4E58B /* CurvedSpacesDummyMenu.xib */,
+			);
+			name = "XIB Files";
+			sourceTree = "<group>";
+		};
+		1F34D9A7175F6FEC005DB08A /* Win32 Code - Inert */ = {
+			isa = PBXGroup;
+			children = (
+				1F34D9AD175F7036005DB08A /* GeometryGames-Win32.h */,
+				1F34D9AB175F7036005DB08A /* GeometryGames-Win32-WinMain.c */,
+				1F34D9AC175F7036005DB08A /* GeometryGames-Win32-WndProc.c */,
+				1F34D9AA175F700A005DB08A /* CurvedSpaces-Win32.h */,
+				1F34D9A8175F700A005DB08A /* CurvedSpaces-Win32-WinMain.c */,
+				1F34D9A9175F700A005DB08A /* CurvedSpaces-Win32-WndProc.c */,
+				1F12050919A4C6B8008E1F67 /* GeometryGamesUtilities-Win.h */,
+				1F12050819A4C6B8008E1F67 /* GeometryGamesUtilities-Win.c */,
+			);
+			name = "Win32 Code - Inert";
+			sourceTree = "<group>";
+		};
+		1F48C41C19A3C512001C6F3B /* Common Code */ = {
+			isa = PBXGroup;
+			children = (
+				1F48C41D19A3C512001C6F3B /* CurvedSpaces-Common.h */,
+				1F7BC54A1CD101F000B6932D /* CurvedSpacesGraphics-OpenGL.h */,
+				1F48C42419A3C512001C6F3B /* CurvedSpacesGraphics-OpenGL.c */,
+				1F48C42719A3C512001C6F3B /* CurvedSpacesInit.c */,
+				1F8245F01C80C77C00E926FD /* CurvedSpacesView.c */,
+				1F48C42919A3C512001C6F3B /* CurvedSpacesMouse.c */,
+				1F48C42B19A3C512001C6F3B /* CurvedSpacesOptions.c */,
+				1F48C42D19A3C512001C6F3B /* CurvedSpacesSimulation.c */,
+				1F48C42219A3C512001C6F3B /* CurvedSpacesFileIO.c */,
+				1F48C42E19A3C512001C6F3B /* CurvedSpacesTiling.c */,
+				1F48C42019A3C512001C6F3B /* CurvedSpacesDirichlet.c */,
+				1F48C42119A3C512001C6F3B /* CurvedSpacesEarth.c */,
+				1F48C42319A3C512001C6F3B /* CurvedSpacesGalaxy.c */,
+				1F48C42519A3C512001C6F3B /* CurvedSpacesGyroscope.c */,
+				1F48C42A19A3C512001C6F3B /* CurvedSpacesObserver.c */,
+				1F48C41E19A3C512001C6F3B /* CurvedSpacesClifford.c */,
+				1F48C42619A3C512001C6F3B /* CurvedSpacesHantzscheWendt.c */,
+				1F48C41F19A3C512001C6F3B /* CurvedSpacesColors.c */,
+				1F48C42819A3C512001C6F3B /* CurvedSpacesMatrices.c */,
+				1F48C42C19A3C512001C6F3B /* CurvedSpacesSafeMath.c */,
+			);
+			name = "Common Code";
+			path = "../Source-Common/C_Code";
+			sourceTree = "<group>";
+		};
+		1F723B0B1333CA790091FC63 = {
+			isa = PBXGroup;
+			children = (
+				1FDA3AC21334E8A100453CDB /* Geometry Games - Shared */,
+				1F48C41C19A3C512001C6F3B /* Common Code */,
+				1FDA3AD71334E95600453CDB /* Mac Code */,
+				1FDA3AE11334E9A500453CDB /* Resources */,
+				1FB058C11334EA5D00D6CE10 /* Supporting Files */,
+				1F219B991334FB1F00A4E58B /* XIB Files */,
+				1F723B191333CA7A0091FC63 /* Frameworks */,
+				1F723B171333CA7A0091FC63 /* Products */,
+				1F34D9A7175F6FEC005DB08A /* Win32 Code - Inert */,
+			);
+			sourceTree = "<group>";
+		};
+		1F723B171333CA7A0091FC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F723B161333CA7A0091FC63 /* CurvedSpaces-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F723B191333CA7A0091FC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F723B1A1333CA7A0091FC63 /* Cocoa.framework */,
+				1F723B1C1333CA7A0091FC63 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F723B1C1333CA7A0091FC63 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F723B1D1333CA7A0091FC63 /* AppKit.framework */,
+				1F723B1E1333CA7A0091FC63 /* CoreData.framework */,
+				1F723B1F1333CA7A0091FC63 /* Foundation.framework */,
+				1F18B09D1333D74E00CABD8F /* CoreVideo.framework */,
+				1F18B09F1333D77500CABD8F /* OpenGL.framework */,
+				1F8CE11713466DAA0038450A /* QTKit.framework */,
+				1FCDE7F816E1305C0016A00C /* WebKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1FB058C11334EA5D00D6CE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB058CB1334EAE200D6CE10 /* CurvedSpaces-Mac-Info.plist */,
+				1F568BA213437FB8001027BE /* InfoPlist.strings */,
+				1F278C5D13575C8100049FBB /* Credits.html */,
+				1FC68F4C1BFCDCF700BF654A /* Images.xcassets */,
+				1FB058C41334EA9900D6CE10 /* CurvedSpaces-Mac-Prefix.pch */,
+				1FB058C21334EA9900D6CE10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FB1AA87148D44D9004A4C75 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2693B17F2D41D00D217D9 /* GeometryGamesUtilities-Common.h */,
+				1FC2693A17F2D41D00D217D9 /* GeometryGamesUtilities-Common.c */,
+				1FC2693E17F2D41D00D217D9 /* GeometryGamesUtilities-Mac.h */,
+				1FC2693F17F2D41D00D217D9 /* GeometryGamesUtilities-Mac.m */,
+				1FC2693C17F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.h */,
+				1FC2693D17F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.m */,
+				1FC2693717F2D41D00D217D9 /* GeometryGamesLocalization.h */,
+				1FC2693617F2D41D00D217D9 /* GeometryGamesLocalization.c */,
+				1FC2693917F2D41D00D217D9 /* GeometryGamesMatrix44.h */,
+				1FC2693817F2D41D00D217D9 /* GeometryGamesMatrix44.c */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		1FB1AA88148D44E6004A4C75 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA3AD01334E90000453CDB /* GeometryGames-OpenGL.h */,
+				1FDA3ACF1334E90000453CDB /* GeometryGames-OpenGL.c */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		1FB1AA89148D44F1004A4C75 /* Classes - Mac */ = {
+			isa = PBXGroup;
+			children = (
+				1F27D66E16E225E0002215F9 /* GeometryGamesAppDelegateMac.h */,
+				1F27D66F16E225E0002215F9 /* GeometryGamesAppDelegateMac.m */,
+				1FCED1FE16E7876B008F1452 /* GeometryGamesWindowController.h */,
+				1FCED1FF16E7876B008F1452 /* GeometryGamesWindowController.m */,
+				1F2588CB14D06839006FD641 /* GeometryGamesWindowMac.h */,
+				1F2588CC14D06839006FD641 /* GeometryGamesWindowMac.m */,
+				1F2588C914D06839006FD641 /* GeometryGamesViewMac.h */,
+				1F2588CA14D06839006FD641 /* GeometryGamesViewMac.m */,
+			);
+			name = "Classes - Mac";
+			sourceTree = "<group>";
+		};
+		1FDA3AC21334E8A100453CDB /* Geometry Games - Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1F17853D149A585200A00F66 /* GeometryGames-Common.h */,
+				1FB1AA89148D44F1004A4C75 /* Classes - Mac */,
+				1F17853F149A587D00A00F66 /* Classes - Mac-iOS */,
+				1FB1AA88148D44E6004A4C75 /* OpenGL */,
+				1FB1AA87148D44D9004A4C75 /* Utilities */,
+			);
+			name = "Geometry Games - Shared";
+			sourceTree = "<group>";
+		};
+		1FDA3AD71334E95600453CDB /* Mac Code */ = {
+			isa = PBXGroup;
+			children = (
+				1FDA3AD81334E97D00453CDB /* CurvedSpacesAppDelegate.h */,
+				1FDA3AD91334E97D00453CDB /* CurvedSpacesAppDelegate.m */,
+				1FDA3ADC1334E97D00453CDB /* CurvedSpacesWindowController.h */,
+				1FDA3ADD1334E97D00453CDB /* CurvedSpacesWindowController.m */,
+				1FDA3ADA1334E97D00453CDB /* CurvedSpacesView.h */,
+				1FDA3ADB1334E97D00453CDB /* CurvedSpacesView.m */,
+			);
+			name = "Mac Code";
+			sourceTree = "<group>";
+		};
+		1FDA3AE11334E9A500453CDB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F48C29219A3A5D9001C6F3B /* Languages */,
+				1F48C29419A3A5D9001C6F3B /* Shaders */,
+				1F48C29519A3A5D9001C6F3B /* Textures */,
+				1F48C29319A3A5D9001C6F3B /* Sample Spaces */,
+				1F48C29119A3A5D9001C6F3B /* Help */,
+				1F48C29619A3A5D9001C6F3B /* Thanks */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F723B151333CA7A0091FC63 /* CurvedSpaces-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F723B341333CA7A0091FC63 /* Build configuration list for PBXNativeTarget "CurvedSpaces-Mac" */;
+			buildPhases = (
+				1F723B121333CA7A0091FC63 /* Sources */,
+				1F723B131333CA7A0091FC63 /* Frameworks */,
+				1F723B141333CA7A0091FC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurvedSpaces-Mac";
+			productName = "StarterCode-Mac";
+			productReference = 1F723B161333CA7A0091FC63 /* CurvedSpaces-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F723B0D1333CA790091FC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					1F723B151333CA7A0091FC63 = {
+						DevelopmentTeam = 6DF5NJ2T2U;
+					};
+				};
+			};
+			buildConfigurationList = 1F723B101333CA790091FC63 /* Build configuration list for PBXProject "CurvedSpaces-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				ja,
+				de,
+				es,
+				zh,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 1F723B0B1333CA790091FC63;
+			productRefGroup = 1F723B171333CA7A0091FC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F723B151333CA7A0091FC63 /* CurvedSpaces-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F723B141333CA7A0091FC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F48C29819A3A5D9001C6F3B /* Languages in Resources */,
+				1FC68F4D1BFCDCF700BF654A /* Images.xcassets in Resources */,
+				1F48C29919A3A5D9001C6F3B /* Sample Spaces in Resources */,
+				1F219B9B1334FBB200A4E58B /* CurvedSpacesDummyMenu.xib in Resources */,
+				1F48C29719A3A5D9001C6F3B /* Help in Resources */,
+				1F48C29A19A3A5D9001C6F3B /* Shaders in Resources */,
+				1F568BA413437FB8001027BE /* InfoPlist.strings in Resources */,
+				1F48C29B19A3A5D9001C6F3B /* Textures in Resources */,
+				1F278C5E13575C8100049FBB /* Credits.html in Resources */,
+				1F48C29C19A3A5D9001C6F3B /* Thanks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F723B121333CA7A0091FC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDA3AD11334E90000453CDB /* GeometryGames-OpenGL.c in Sources */,
+				1F48C43319A3C512001C6F3B /* CurvedSpacesFileIO.c in Sources */,
+				1F48C43E19A3C512001C6F3B /* CurvedSpacesSimulation.c in Sources */,
+				1F48C43519A3C512001C6F3B /* CurvedSpacesGraphics-OpenGL.c in Sources */,
+				1FDA3ADE1334E97D00453CDB /* CurvedSpacesAppDelegate.m in Sources */,
+				1F48C43619A3C512001C6F3B /* CurvedSpacesGyroscope.c in Sources */,
+				1F8245F11C80C77C00E926FD /* CurvedSpacesView.c in Sources */,
+				1F48C43819A3C512001C6F3B /* CurvedSpacesInit.c in Sources */,
+				1FDA3ADF1334E97D00453CDB /* CurvedSpacesView.m in Sources */,
+				1FDA3AE01334E97D00453CDB /* CurvedSpacesWindowController.m in Sources */,
+				1FB058C71334EA9900D6CE10 /* main.m in Sources */,
+				1F48C43419A3C512001C6F3B /* CurvedSpacesGalaxy.c in Sources */,
+				1F178542149A589900A00F66 /* GeometryGamesModel.m in Sources */,
+				1F2588CD14D06839006FD641 /* GeometryGamesViewMac.m in Sources */,
+				1F48C43019A3C512001C6F3B /* CurvedSpacesColors.c in Sources */,
+				1F2588CE14D06839006FD641 /* GeometryGamesWindowMac.m in Sources */,
+				1F48C43C19A3C512001C6F3B /* CurvedSpacesOptions.c in Sources */,
+				1F48C42F19A3C512001C6F3B /* CurvedSpacesClifford.c in Sources */,
+				1F48C43A19A3C512001C6F3B /* CurvedSpacesMouse.c in Sources */,
+				1F48C43119A3C512001C6F3B /* CurvedSpacesDirichlet.c in Sources */,
+				1F27D67016E225E0002215F9 /* GeometryGamesAppDelegateMac.m in Sources */,
+				1F7BC5841CD1358B00B6932D /* GeometryGamesGraphicsDataGL.m in Sources */,
+				1F48C43F19A3C512001C6F3B /* CurvedSpacesTiling.c in Sources */,
+				1F48C43919A3C512001C6F3B /* CurvedSpacesMatrices.c in Sources */,
+				1F48C43219A3C512001C6F3B /* CurvedSpacesEarth.c in Sources */,
+				1FCED20016E7876B008F1452 /* GeometryGamesWindowController.m in Sources */,
+				1FC2694017F2D41D00D217D9 /* GeometryGamesLocalization.c in Sources */,
+				1FC2694117F2D41D00D217D9 /* GeometryGamesMatrix44.c in Sources */,
+				1FC2694217F2D41D00D217D9 /* GeometryGamesUtilities-Common.c in Sources */,
+				1FC2694317F2D41D00D217D9 /* GeometryGamesUtilities-Mac-iOS.m in Sources */,
+				1F48C43D19A3C512001C6F3B /* CurvedSpacesSafeMath.c in Sources */,
+				1FC2694417F2D41D00D217D9 /* GeometryGamesUtilities-Mac.m in Sources */,
+				1F48C43719A3C512001C6F3B /* CurvedSpacesHantzscheWendt.c in Sources */,
+				1F48C43B19A3C512001C6F3B /* CurvedSpacesObserver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F568BA213437FB8001027BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F568BA313437FB8001027BE /* en */,
+				1F568BA513437FD9001027BE /* fr */,
+				1F568BA613437FE9001027BE /* ja */,
+				1F18D2D51538A63F0061684F /* es */,
+				1F56B00B170F2FD700F75068 /* zh-Hans */,
+				1F56B00C170F302700F75068 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F723B321333CA7A0091FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F723B331333CA7A0091FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F723B351333CA7A0091FC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/CurvedSpaces-Mac-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/CurvedSpaces-Mac-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.CurvedSpaces-forMac";
+				PRODUCT_NAME = "CurvedSpaces-Mac";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F723B361333CA7A0091FC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/CurvedSpaces-Mac-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/CurvedSpaces-Mac-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.geometrygames.CurvedSpaces-forMac";
+				PRODUCT_NAME = "CurvedSpaces-Mac";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F723B101333CA790091FC63 /* Build configuration list for PBXProject "CurvedSpaces-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F723B321333CA7A0091FC63 /* Debug */,
+				1F723B331333CA7A0091FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F723B341333CA7A0091FC63 /* Build configuration list for PBXNativeTarget "CurvedSpaces-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F723B351333CA7A0091FC63 /* Debug */,
+				1F723B361333CA7A0091FC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F723B0D1333CA790091FC63 /* Project object */;
+}

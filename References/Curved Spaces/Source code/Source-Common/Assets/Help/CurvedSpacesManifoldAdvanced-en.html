@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Curved Spaces Help — New Space — Advanced</title>
+	<link rel="StyleSheet" href="CurvedSpacesStyle.css" type="text/css">
+</head>
+
+<body>
+
+<div id="NavigationPanel">
+
+<p class="nav0"><a class="nav" href="CurvedSpacesWelcome-en.html">Welcome</a></p>
+
+<p class="nav0">How to…</p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesNavigation-en.html">fly the spaceship</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesWalls-en.html">retract the walls</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesManifold-en.html">change the space</a></p>
+	<p class="nav2"><span class="nav">advanced</span></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesContent-en.html">choose the content</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesExport-en.html">export the image</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesFurtherStudy-en.html">Further study</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesAcknowledgments-en.html">Acknowledgments</a></p>
+
+<div id="FinePrint">
+
+<p>Still have a question?  Submit it to the
+<a class="finePrint" href="http://www.geometrygames.org/contact.html">Geometry Games Contact Page</a>
+for a more-or-less prompt reply.</p>
+
+<p>Curved Spaces is freely distributable under the GNU General Public License.
+The current version is available at
+<a class="finePrint" href="http://www.geometrygames.org/CurvedSpaces">www.geometrygames.org/ CurvedSpaces</a>.</p>
+
+</div>
+
+</div>
+
+
+<div id="TextPanel">
+
+<h1 class="textTitle">
+	How to create your own space
+	<br><i class="smaller">(for 3-manifold experts)</i>
+</h1>
+
+<p>You aren’t limited to the built-in Sample Spaces.
+To make your own space, create a plain text file
+containing a list of 4×4 matrices generating the space’s
+group of covering transformations.
+See, for example, the built-in files for
+<ul>
+	<li>
+		the <a href="SampleTorus-en.html">
+		3-torus</a>,
+	</li>
+	<li>
+		the <a href="SamplePDS-en.html">
+		Poincaré dodecahedral space</a>, and
+	</li>
+	<li>
+		the <a href="SampleHyperbolic-en.html">
+		mirrored right-angled dodecahedron</a>.
+	</li>
+</ul>
+The matrices belong to the group O(4) for spherical spaces,
+O(3,1) for hyperbolic spaces (with the timelike component last),
+and the analogous group for flat spaces.</p>
+
+<p>Curved Spaces uses the <i>(row vector)(matrix)</i> convention
+rather than the <i>(matrix)(column vector)</i> convention,
+so the matrices may be the transposes of what you were expecting.
+In the spherical case this makes no difference because the transpose
+equals the inverse, but in the flat and hyperbolic cases it’s
+important to get it right.</p>
+
+<p>Let your text editor save your 4×4 matrices as a plain <i>.txt</i> file,
+then manually change the filename extension to <i>.gen</i>.
+To open your file, put it in the Sample Spaces folder and choose 
+<b>Space ▸ Change Space…</b> from within Curved Spaces.</p>
+
+<p><i>Macintosh:</i>  To reach the Sample Spaces folder,
+right-click the Curved Spaces icon and choose <b>Show Package Contents</b>,
+then go to <i>Contents/Resources/Sample Spaces</i>.</p>
+
+<p>Curved Spaces 3.0 includes a smaller, more streamlined library
+than Curved Spaces 1.0 had.  The omitted spaces are available
+<a href="http://www.geometrygames.org/contact.html">upon request</a>.</p>
+
+</div>
+
+</body>
+
+</html>

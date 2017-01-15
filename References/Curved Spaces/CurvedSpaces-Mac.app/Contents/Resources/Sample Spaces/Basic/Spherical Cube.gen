@@ -1,0 +1,19 @@
+﻿#	Binary Dihedral Group D₂*
+#
+#	The quotient of the 3-sphere by the binary dihedral group D₂*
+#	(of order 8) gives a prism space based on a cube.
+#	In other words, the quotient space is a cube with opposite face pairs
+#	glued with left-handed π/2 rotations.
+#	This space is also known as the quaternionic manifold, because
+#	it’s the quotient of the group of unit-length quaternions (the 3-sphere)
+#	by the 8-element subgroup {±1, ±i, ±j, ±k} .
+
+  0 -1  0  0
+  1  0  0  0
+  0  0  0  1
+  0  0 -1  0
+
+  0  0 -1  0
+  0  0  0 -1
+  1  0  0  0
+  0  1  0  0

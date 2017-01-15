@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="fr">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Aide Curved Spaces — Nouvel espace — Avancé</title>
+	<link rel="StyleSheet" href="CurvedSpacesStyle.css" type="text/css">
+</head>
+
+<body>
+
+<div id="NavigationPanel">
+
+<p class="nav0"><a class="nav" href="CurvedSpacesWelcome-fr.html">Bienvenue</a></p>
+
+<p class="nav0">Comment…</p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesNavigation-fr.html">déplacer le vaisseau</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesWalls-fr.html">rétracter les murs</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesManifold-fr.html">changer d'espace</a></p>
+	<p class="nav2"><span class="nav">niveau avancé</span></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesContent-fr.html">choisir le contenu</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesExport-fr.html">exporter une vue</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesFurtherStudy-fr.html">Pour en savoir plus</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesAcknowledgments-fr.html">Remerciements</a></p>
+
+<div id="FinePrint">
+
+<p>Vous avez encore une question?  Soumettez-la à la
+<a class="finePrint" href="http://www.geometrygames.org/contact.html">page contact de Geometry Games</a>
+pour avoir une réponse plus ou moins rapide.</p>
+
+<p>Curved Spaces peut être librement distribué sous la GNU General Public License.
+La dernière version est disponible à
+<a class="finePrint" href="http://www.geometrygames.org/CurvedSpaces">www.geometrygames.org/ CurvedSpaces</a>.</p>
+
+</div>
+
+</div>
+
+
+<div id="TextPanel">
+
+<h1 class="textTitle">
+	Comment créer un nouvel espace
+	<br><i class="smaller">(réservé aux experts en variétés à 3 dimensions)</i>
+</h1>
+
+<p>Vous n'êtes nullement limité à l'utilisation des espaces fournis 
+avec Curved Spaces. Pour définir votre propre espace, il suffit de créer un fichier
+au format texte contenant la liste des matrices 4×4 qui engendrent le groupe
+d'holonomie de l'espace que vous avez choisi.
+Prenez exemple sur les fichiers fournis pour
+<ul>
+	<li>
+		l'<a href="SampleTorus-fr.html">hypertore</a>,
+	</li>
+	<li>
+		l'<a href="SamplePDS-fr.html">espace dodécaédrique de Poincaré</a>, et
+	</li>
+	<li>
+		le <a href="SampleHyperbolic-fr.html">docécaèdre à faces-miroirs et à angles droits</a>.
+	</li>
+</ul>
+Les matrices appartiennent au groupe O(4) pour les espaces sphériques, au groupe 
+O(3,1) pour les espaces hyperboliques (avec la composante temps placée en 
+dernière position) et au groupe équivalent (qui n'a pas de nom générique !) pour les espaces euclidiens.
+
+<p>Curved Spaces utilise la convention <i>(vecteur ligne)(matrice)</i> plutôt que
+la convention <i>(matrice)(vecteur colonne)</i> pour la multiplication d'une matrice et d'un vecteur.
+Il est donc possible que les matrices correctes soient les transposées de celles auxquelles vous pensez
+spontanément. Dans le cas sphérique cela ne fait aucune différence car
+transposée et inverse sont égales, mais dans les cas euclidiens et hyperboliques
+il est important de faire attention à cette distinction.</p>
+
+<p>Sauvez vos matrices 4×4 dans un fichier texte dont vous changerez à la main
+l'extension du nom en <i>.gen</i>. Pour ouvrir votre fichier, mettez-le dans le dossier “Sample Spaces”
+et choisissez <b>Changer d'espace…</b> dans le menu <b>Espace</b> de Curved Spaces.</p>
+
+<p><i>Macintosh:</i>  Pour arriver au dossier Sample Spaces,
+faites un clic droit sur ​​l'icône Curved Spaces et choisissez <b>Afficher le contenu du paquet</b>,
+ensuite allez au sous-dossier <i>Contents/Resources/Sample Spaces</i>.</p>
+
+<p>La bibliothèque de Curved Spaces 2.0 est moins riche mais plus compacte que celle dont disposait
+Curved Spaces 1.0. Les espaces écartés sont disponibles
+<a href="http://www.geometrygames.org/contact.html">sur demande</a>.</p>
+
+</div>
+
+</body>
+
+</html>

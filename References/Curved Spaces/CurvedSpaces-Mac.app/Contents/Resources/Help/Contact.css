@@ -1,0 +1,37 @@
+body
+{
+	/*
+	 *	For Western languages:
+	 *		"Times New Roman" and "Times" are the PC and Mac names
+	 *		for the same font.
+	 *
+	 *	For East Asian languages:
+	 *		Mac OS X  takes "sans-serif" and provides a good-looking font.
+	 *		Windows 7 takes "sans-serif" and provides an ugly non-smoothed
+	 *			font by default.  For better results, we must name
+	 *			an appropriate ClearType font explicitly (see below).
+	 */
+	font-family:		"Times New Roman", Times, serif;
+	background-image:	url(sand.jpg);
+	color:				#000000;
+	text-align:			center;
+	font-size:			1px;
+}
+body:lang(ar)		{direction: rtl; font-family: "Simplified Arabic"}
+body:lang(ja)		{font-family: Meiryo, メイリオ, sans-serif}
+body:lang(ko)		{font-family: "Malgun Gothic", "맑은 고딕", sans-serif}
+body:lang(zh-Hans)	{font-family: "Microsoft YaHei", 微软雅黑, sans-serif}
+body:lang(zh-Hant)	{font-family: "Microsoft JhengHei", 微軟正黑體, sans-serif}
+
+p.primary
+{
+	font-size:			22px;
+	margin-top:			128px;
+	margin-bottom:		128px;
+}
+p.primary:lang(ja)	{margin-top: 112px; margin-bottom: 112px}
+
+p.secondary
+{
+	font-size:			16px;
+}

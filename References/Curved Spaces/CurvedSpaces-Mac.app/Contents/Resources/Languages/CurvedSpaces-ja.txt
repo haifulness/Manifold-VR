@@ -1,0 +1,142 @@
+//	Program:
+//		CurvedSpaces
+//
+//	Language:
+//		日本語
+//		Japanese
+//
+//	Translator:
+//		竹内　建
+//		Tatsu Takeuchi
+//
+//	Date:
+//		July 2008
+//
+//	© 2015 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu (Mac OS X)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "Curved Spaces について"	//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "Curved Spaces について…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Curved Spaces を隠す"
+"Hide Others"			= "ほかを隠す"
+"Show All"				= "すべてを表示"
+"Quit Curved Spaces"	= "Curved Spaces を終了"	//	Mac OS X
+
+//	File menu
+"File"					= "ファイル"
+"Open…"					= "開く…"
+"Open New…"				= "新しいウィンドウに開く…"
+"Open Recent"			= "最近使ったファイルを開く"
+"Clear Menu"			= "メニューをクリア"
+"Export"				= "エクスポート"
+"Copy Image"			= "画像をコピー"
+"Save Image"			= "画像を保存"	//	with no '…' on iOS
+"Save Image…"			= "画像を保存…"	//	with '…' on Mac and Win
+"Exit"					= "終了"	//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= "空間"
+"Change Space…"			= "別の空間を選択する…"	//	lit.: “choose another space”
+
+//	View menu
+"View"					= "表示"
+"Centerpiece"			= "中央物体"
+"No Centerpiece"		= "なし"
+"Earth"					= "地球"
+"Galaxy"				= "銀河"
+"Gyroscope"				= "ジャイロスコープ"
+"Spaceship"				= "宇宙船"
+"Color Coding"			= "対応壁対の色分け"
+"Clifford Parallels"	= "クリフォード平行線"
+"CliffordNone"			= "なし"		//	= "None"
+"Bicolor"				= "二色"		//	JUST A GUESS BY JRW, STILL NEEDS CONFIRMATION
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= "１集合"	//	JUST A GUESS BY JRW, STILL NEEDS CONFIRMATION
+"Two Sets"				= "２集合"	//	JUST A GUESS BY JRW, STILL NEEDS CONFIRMATION
+"Three Sets"			= "３集合"	//	JUST A GUESS BY JRW, STILL NEEDS CONFIRMATION
+"Vertex Figures"		= "頂点図形"
+"Fog"					= "フォグ効果"
+"Full Screen"			= "フルスクリーンモード"
+"Stereoscopic 3D"		= "立体映像"
+"No Stereo 3D"			= "なし"
+"Greyscale"				= "モノクロ"
+"Color"					= "カラー"
+
+//	Language menu
+"Language"				= "言語"
+
+//	Help menu
+"Help"					= "ヘルプ"
+"Curved Spaces Help"	= "Curved Spaces の使い方"
+"Contact"				= "連絡先"
+"Translators"			= "翻訳"
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= "空間を選択してください"	//	lit.: “please choose a space”
+"OK"					= "OK"
+"Cancel"				= "キャンセル"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (Mac OS)
+
+					// Save Image as TIFF File
+"SavePanelTitle"	= "画像をTIFF形式で保存"
+
+					// image
+"DefaultFileName"	= "画像"
+
+					// Width:
+"WidthLabel"		= "幅:"
+
+					// Height:
+"HeightLabel"		= "高さ:"
+
+
+//	Error messages
+
+						// Your computer’s 3D graphics processor lacks OpenGL 2.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL1"		= "このコンピュータの３Ｄグラフィックス・プロセッサには、\nOpenGL 2機能が内蔵されていないようです。\n次のサイトより、このプログラムの旧ヴァージョンが入手\nできますので、そちらをお使いください。\n\n\twww.geometrygames.org/Archive"
+
+						// Your computer’s 3D graphics processor lacks OpenGL 3.3.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL2"		= "このコンピュータの３Ｄグラフィックス・プロセッサには、\nOpenGL 3.3機能が内蔵されていないようです。\n次のサイトより、このプログラムの旧ヴァージョンが入手\nできますので、そちらをお使いください。\n\n\twww.geometrygames.org/Archive"
+
+
+						// 32-bit color required
+"ErrorColorTitle"		= "このプログラムの動作のためには、３２ビットカラーが必要です。"
+
+						// Please go to Start : Control Panel : Display : Settings and select 32-bit color.
+"ErrorColorMessage"		= "Windows XPをお使いの場合は、［スタート］→［コントロールパネル］→［画面］→［設定］を、Windows Vistaをお使いの場合は、［スタート］→［コントロールパネル］→［個人設定］→［画面の設定］を選択し、画面の色数を３２ビットに設定して下さい。"
+
+
+						// Transparency support required
+"ErrorAlphaTitle"		= "このプログラムの動作のためには、トランスペアレンシー機能が必要です。"
+
+						// Your computer reports no transparency support, so this program cannot proceed.  Sorry.
+"ErrorAlphaMessage"		= "このコンピュータには、トランスペアレンシー機能が付加されていないため、残念ながら、このプログラムは、作動致しません。"
+
+
+						// OpenGL driver required
+"ErrorDriverTitle"		= "OpenGLドライバーが必要です"
+
+						// Can't find an “OpenGL driver” for your 3D graphics hardware.\nPlease see Question W2 on the Geometry Games FAQ at\n\n\twww.geometrygames.org/FAQ\n\nfor instructions on locating an OpenGL driver.
+"ErrorDriverMessage"	= "このコンピュータの３Ｄグラフィックス・プロセッサ用の、「OpenGLドライバー」を、見つけることができまん。OpenGLドライバーの入手方法については、\n\n\twww.geometrygames.org/FAQ\n\nに掲載された、「Geometry Games について、よくある質問」の、質問番号W2への解答を見てください。"
+
+
+						// Curved Spaces 3.7.0
+"AboutBoxTitle"			= "Curved Spaces 3.7.0"
+
+						// Curved Spaces 3.7.0\n\nJapanese translation by Tatsu Takeuchi\n\n© 2015 by Jeff Weeks\nwww.geometrygames.org/contact.html
+"AboutBoxMessage"		= "Curved Spaces 3.7.0\n\n日本語翻訳　竹内建\n\n© 2015 by Jeff Weeks\nwww.geometrygames.org/contact.html"

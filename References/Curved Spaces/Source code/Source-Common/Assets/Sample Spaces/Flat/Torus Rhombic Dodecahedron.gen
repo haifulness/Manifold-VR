@@ -1,0 +1,24 @@
+﻿#	Rhombic Dodecahedron 3-Torus
+#
+#	The quotient of E³ by translations in the directions
+#	of the faces of a rhombic dodecahedron.  Such a construction
+#	won't work with an arbitrary polyhedron, but works great
+#	with a rhombic dodecahedron because rhombic dodecahedra tile E³.
+#
+#	The first three elements in the bottom row
+#	of each matrix define the translation vectors.
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  1.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  1.0  1.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  0.0  1.0  1.0 

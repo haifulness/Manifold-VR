@@ -1,0 +1,132 @@
+//	Program:
+//		CurvedSpaces
+//
+//	Language:
+//		Français
+//		French
+//
+//	Translator:
+//		Roland Lehoucq
+//
+//	Date:
+//		January 2007
+//
+//	© 2016 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu (Mac OS X)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "À propos de Curved Spaces"	//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "À propos de Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Masquer Curved Spaces"
+"Hide Others"			= "Masquer les autres"
+"Show All"				= "Tout afficher"
+"Quit Curved Spaces"	= "Quitter Curved Spaces"	//	Mac OS X
+
+//	File menu
+"File"					= "Fichier"
+"Open…"					= "Ouvrir…"
+"Open New…"				= "Ouvrir dans une nouvelle fenêtre…"
+"Open Recent"			= "Ouvrir récent"
+"Clear Menu"			= "Effacer le menu"
+"Export"				= "Exportation"
+"Copy Image"			= "Copier la vue"
+"Save Image"			= "Enregistrer la vue"	//	with no '…' on iOS
+"Save Image…"			= "Enregistrer la vue…"	//	with '…' on Mac and Win
+"Exit"					= "Quitter"	//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= "Espace"
+"Change Space…"			= "Changer d'espace…"
+
+//	View menu
+"View"					= "Présentation"
+"Centerpiece"			= "Astre central"
+"No Centerpiece"		= "Aucun objet"
+"Earth"					= "Terre"
+"Galaxy"				= "Galaxie"
+"Gyroscope"				= "Gyroscope"
+"Spaceship"				= "Vaisseau spatial"
+"Color Coding"			= "Colorier les faces associées"
+"Clifford Parallels"	= "Parallèles de Clifford"
+"CliffordNone"			= "Aucune"
+"Bicolor"				= "Bicolores"
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= "Un ensemble"
+"Two Sets"				= "Deux ensembles"
+"Three Sets"			= "Trois ensembles"
+"Vertex Figures"		= "Symétrie des sommets"
+"Fog"					= "Brouillard"
+"Full Screen"			= "Mode plein écran"
+"Stereoscopic 3D"		= "Vue stéréoscopique 3D"
+"No Stereo 3D"			= "Désactivée"
+"Greyscale"				= "Niveau de gris"
+"Color"					= "Couleur"
+
+//	Language menu
+"Language"				= "Langue"
+
+//	Help menu
+"Help"					= "Aide"
+"Curved Spaces Help"	= "Aide Curved Spaces"
+"Contact"				= "Contact"
+"Translators"			= "Traducteurs"
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= "Choix d'espace"
+"OK"					= "OK"
+"Cancel"				= "Annuler"
+
+
+//	Window title
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (Mac OS)
+"SavePanelTitle"	= "Enregistrer l'image au format TIFF"
+"DefaultFileName"	= "image"
+"WidthLabel"		= "Largeur:"
+"HeightLabel"		= "Hauteur:"
+
+
+//	Error messages
+
+						// Your computer’s 3D graphics processor lacks OpenGL 2.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL1"		= "Le processeur graphique de votre ordinateur ne dispose pas de OpenGL 2.\nVeuillez utiliser l’ancienne version du logiciel\ndisponible à l’adresse suivante :\n\n\twww.geometrygames.org/Archive\n\nNous vous prions de nous excuser pour le désagrément encouru."
+
+						// Your computer’s 3D graphics processor lacks OpenGL 3.3.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL2"		= "Le processeur graphique de votre ordinateur ne dispose pas de OpenGL 3.3.\nVeuillez utiliser l’ancienne version du logiciel\ndisponible à l’adresse suivante :\n\n\twww.geometrygames.org/Archive\n\nNous vous prions de nous excuser pour le désagrément encouru."
+
+
+						// 32-bit color required
+"ErrorColorTitle"		= "Couleur à 32 bit requise"
+
+						// Please go to Start : Control Panel : Display : Settings and select 32-bit color.
+"ErrorColorMessage"		= "SVP allez à Démarrer : Panneau de configuration : Affichage : Paramètres et sélectionnez « Qualité couleur Optimale 32 bit »."
+
+
+						// Transparency support required
+"ErrorAlphaTitle"		= "Soutien à transparence requis"
+
+						// Your computer reports no transparency support, so this program cannot proceed.  Sorry.
+"ErrorAlphaMessage"		= "Votre ordinateur indique que sa carte graphique ne soutient pas la transparence partielle, donc ce logiciel ne peut pas continuer.  Désolé."
+
+
+						// OpenGL driver required
+"ErrorDriverTitle"		= "Pilote OpenGL requis"
+
+						// Can't find an “pilote OpenGL” for your 3D graphics hardware.\nPlease see Question W2 on the Geometry Games FAQ at\n\n\twww.geometrygames.org/FAQ\n\nfor instructions on locating a pilote OpenGL.
+"ErrorDriverMessage"	= "Il manque le “Pilote OpenGL” de votre processeur graphique 3D.\nPour savoir comment localiser un “Pilote OpenGL”,\nconsulter la Question W2 de la FAQ de Geometry Games à l'adresse suivante :\n\n\twww.geometrygames.org/FAQ"
+
+
+						// Curved Spaces 3.7.1
+"AboutBoxTitle"			= "Curved Spaces 3.7.1"
+
+						// Curved Spaces 3.7.1\n\nFrench translation by Roland Lehoucq\n\n© 2016 by Jeff Weeks\nwww.geometrygames.org/contact.html
+"AboutBoxMessage"		= "Curved Spaces 3.7.1\n\nTraduction française par Roland Lehoucq\n\n© 2016 by Jeff Weeks\nwww.geometrygames.org/contact.html"

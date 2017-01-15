@@ -1,0 +1,21 @@
+﻿#	Truncated Octahedron 3-Torus
+#
+#	Three-torus with fundamental domain a truncated octahedron.
+#
+#	The first three elements in the bottom row
+#	of each matrix define the translation vectors.
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  0.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  1.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.5  0.5  0.5  1.0 

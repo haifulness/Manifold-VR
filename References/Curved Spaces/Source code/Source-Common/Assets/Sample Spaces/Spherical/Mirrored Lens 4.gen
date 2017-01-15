@@ -1,0 +1,11 @@
+﻿#	Mirrored Lens with dihedral angle 2π/4
+
+  1  0  0  0
+  0  1  0  0
+  0  0  0 -1
+  0  0 -1  0
+
+  1  0  0  0
+  0  1  0  0
+  0  0  0  1
+  0  0  1  0

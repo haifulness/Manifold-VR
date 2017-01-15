@@ -1,0 +1,1203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Curved Spaces Revision History</title>
+	<style type="text/css">
+		body		{background-color: #D0F0E0}
+		h1			{text-align: center; margin-top:  2pt; margin-bottom: 16pt; color: #0040C0}
+		h2			{text-align: center; margin-top: 16pt; margin-bottom:  2pt; color: #0040C0; font-style: italic}
+		td			{padding-bottom: 8pt}
+		table		{margin-left: auto; margin-right: auto; padding-left: 16pt;  padding-right: 16pt}
+		tr			{vertical-align: top}
+		td			{padding-left: 4pt;  padding-right: 4pt}
+		td.version	{font-weight: bold}
+		td.date		{text-align: center; font-style: italic; white-space: nowrap}
+		td.changes	{}
+		p			{padding-left: 1em; text-indent: -1em; margin-top: 0; margin-bottom: 0}
+		ul			{margin-top: 0; margin-bottom: 0}
+	</style>
+</head>
+
+<body>
+
+<h2>Curved Spaces</h2>
+
+<h1>Revision History</h1>
+
+<table>
+	<tr>
+		<td class="version">3.7.1</td>
+		<td class="date">19 July 2016</td>
+		<td class="changes">
+			<p>
+				Modified touch interface to let rotations exactly track
+				the mouse motion.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 June 2016</td>
+		<td class="changes">
+			<p>
+				Added CURVED_SPACES_TOUCH_INTERFACE for immediate use
+				on Win10 touchscreen computers, and as preparation
+				for an iOS version as well.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 June 2016</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> Replaced GetCursorPos(), which gives
+				the cursor position at the time of the call,
+				with GET_X_LPARAM(lParam) and GET_Y_LPARAM(lParam),
+				which gives the cursor position at the time of the event.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">15 May 2016</td>
+		<td class="changes">
+			<p>
+				Separated OpenGL(ES)-specific data and code
+				from graphics-system-independent data and code,
+				in preparation for a migration from OpenGL(ES)
+				to Metal on iOS and Mac (and maybe eventually
+				to Vulkan on Android and to DX12 on Windows).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.7</td>
+		<td class="date">17 Nov 2015</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Updated code for Mac OS X 10.10,
+				replacing all deprecated method calls.
+				Requires OpenGL 3.3.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Nov 2015</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Converted memory management
+				from Manual Retain-Release (MRR)
+				to Automatic Reference Counting (ARC).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Oct 2015</td>
+		<td class="changes">
+			<p>
+				Suppressed the Language menu to avoid displaying UniHan characters incorrectly
+				(and also because the Language menu wasn't really useful
+				except in the Torus Games). 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 Feb 2015</td>
+		<td class="changes">
+			<p>
+				Added “back” buttons to Help pages' sample manifold files,
+				and also tidied up the formatting.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.6.2</td>
+		<td class="date">22 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Further migration to Char16.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Expanded visibility of OpenGL headers,
+				so the ModelData can refer to OpenGL objects as GLuint
+				instead of "unsigned int", thus improving clarity
+				and avoiding integer conversion warnings.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">20 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Replaced L"…" → u"…" and L'·' → u'·'.
+				The L syntax required -fshort-wchar to get 16-bit wide characters
+				and generated copious warnings in Android,
+				while the u syntax is part of the C11 standard.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 Aug 2014</td>
+		<td class="changes">
+			<p>
+				Completed deferred maintenance of Windows version
+				(accommodated changes from last 15 months
+				when I had no Windows computer).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Dec 2013</td>
+		<td class="changes">
+			<p>
+				Handles localized text as UTF-16 instead of UTF-8.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.6.1</td>
+		<td class="date">16 May 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> Improved font quality (especially East Asian) on Windows Vista and newer.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.6</td>
+		<td class="date">9 May 2013</td>
+		<td class="changes">
+			<p>
+				First version requiring OpenGL 3.2 or OpenGL ES 2.0.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.5</td>
+		<td class="date">2 May 2013</td>
+		<td class="changes">
+			<p>
+				Last version compatible with OpenGL 2.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.8</td>
+		<td class="date">30 Apr 2013</td>
+		<td class="changes">
+			<p>
+				Public release of accumulated changes.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Apr 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> Moved much functionality from
+				individual applications to shared code.
+			</p>
+			<p>
+				<i>(Win)</i> Simplified implementation of various features.  Removed cruft.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Apr 2013</td>
+		<td class="changes">
+			<p>
+				Added traditional Chinese (Hant) localization,
+				separate from simplified Chinese (Hans) localization.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">8 Mar 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Moved much functionality from
+				individual applications to shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Mar 2013</td>
+		<td class="changes">
+			<p>
+				Replaced platform-specific language lists 
+				with a single language list in app's common code.
+				Simplified language menu handling.
+			</p>
+			<p>
+				Moved endonyms and Win32 LANGIDs to Geometry Games shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Feb 2013</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Updated Objective-C syntax to use @{}, @[], @() and @autorelease.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Nov 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Re-organized instance variables,
+				moving them from .h to .m files (@interface to @implementation)
+				as allowed by the “new” Objective-C runtime.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.7</td>
+		<td class="date">2 Oct 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> To avoid bugs in Intel Integrated Graphics drivers,
+				ignores VAO extension and directs all OpenGL 2 users (on Windows)
+				to the legacy version of the program.
+			</p>
+			<p>
+				Simplified extensions handling.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.6</td>
+		<td class="date">25 Sep 2012</td>
+		<td class="changes">
+			<p>
+				Added Chinese.
+			</p>
+			<p>
+				Added Spanish.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">26 Aug 2012</td>
+		<td class="changes">
+			<p>
+				Merged vertex shaders using #ifdef.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">27 Jun 2012</td>
+		<td class="changes">
+			<p>
+				Public version offers mutually orthogonal sets
+				of Clifford parallels.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">25 Jun 2012</td>
+		<td class="changes">
+			<p>
+				Deeper tilings (best depth on computers from 2008 or later
+				[i.e. OpenGL 3 era hardware]).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Jun 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> imageAsBitmapImageRepOfSize
+				rescales images larger than 1024×1024
+				when running with OpenGL 2 (on older computers),
+				but leaves the requested size unchanged
+				when running with OpenGL 3 (on mid-aged or newer computers).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.5</td>
+		<td class="date">3 Feb 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> imageAsBitmapImageRepOfSize no longer rejects sizes
+				greater than 1024×1024, but instead rescales the image.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">3 Feb 2012</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i> The application as a whole is now willing
+				to use the OpenGL 2 FBO extension for Copy/Save.
+				However, to ensure that all users get correct basic functionality,
+				it calls glGenerateMipmap only on OpenGL 3.3 or higher.
+				On OpenGL 3.2 or earlier it falls back 
+				to glTexParameteri(…, GL_GENERATE_MIPMAP, …)
+				to avoid buggy glGenerateMipmap implementations. 
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.4</td>
+		<td class="date">20 Jan 2012</td>
+		<td class="changes">
+			<p>
+				First version to require Vertex Array Objects.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.3.1</td>
+		<td class="date">25 Sep 2012</td>
+		<td class="changes">
+			<p>
+				Same as 3.4.3, but with Chinese and Spanish.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.3</td>
+		<td class="date">20 Jan 2012</td>
+		<td class="changes">
+			<p>
+				Last version to run without Vertex Array Objects (superseded by 3.4.3.1).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">18 Jan 2012</td>
+		<td class="changes">
+			<p>
+				Disentangled Vertex Array Object (VAO) code
+				from Vertex Buffer Object (VBO) code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Dec 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Created an opaque ModelData typedef
+				and move much more functionality into the GeometryGamesView class
+				to reduce code duplication among different applications.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Dec 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Created a shared GeometryGamesView class
+				to reduce code duplication among different applications.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.2</td>
+		<td class="date">18 Nov 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> The ModelData is now packaged as an Objective-C object.
+				The WindowController sees the ModelData and the View.
+				The View sees the ModelData.
+				This design goes against Apple's advice to let the Controller
+				mediate between the Model and the View
+				(as illustrated by the 2-way arrows in the figure
+				at developer.apple.com/technologies/mac/cocoa.html ),
+				but ultimately achieves much cleaner code.
+				As an added bonus, the pointers WindowController→ModelData,
+				WindowController→View and View→ModelData all point
+				in a consistent direction (no cycles), so they may all be
+				strong (retained) references.  There's no longer any need
+				for weak (non-retained) references.
+			</p>
+			<p>
+				<i>(Mac)</i> The Mac OS 10.6 style fullscreen mode
+				would switch the first responder to the WindowController,
+				regardless of what it had been previously.
+				Now that Mac OS 10.7 provides a far cleaner fullscreen mode
+				(and I've eliminated the 10.6 fullscreen mode entirely),
+				the first responder is the View, not the WindowController.
+				The View now handles all keystroke and mouse activity,
+				while the WindowController handles the menus.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4.1</td>
+		<td class="date">28 Jul 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Uses OpenGL 3.2 on Mac OS 10.7.
+			</p>
+			<p>
+				<i>(Mac)</i> Mac OS 10.7 fullscreen mode support.
+			</p>
+			<p>
+				<i>(Mac)</i> Assorted small changes for Mac OS 10.7 compatibility.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">2 Jun 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Pauses animation when hidden (⌘H).
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 May 2011</td>
+		<td class="changes">
+			<p>
+				Added additional Clifford parallel options
+				for use in talks:  centerlines only;  or
+				1, 2 or 3 mutually orthogonal sets.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.4</td>
+		<td class="date">20 May 2011</td>
+		<td class="changes">
+			<p>
+				Dirichlet domain wall segments use absolute
+				dimensions for texture coordinates,
+				not just aspect ratios.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">19 May 2011</td>
+		<td class="changes">
+			<p>
+				Triangulates Dirichlet domain wall segments
+				with 4n vertices each instead of 2n+2 vertices each.
+				It's a fraction of a percent slower but 
+				gets the texture coordinates right 
+				even when the faces are irregular.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">April & May</td>
+		<td class="changes">
+			<p>
+				Lots of small improvements and maintenance,
+				which I got bored of recording in the revision histories.
+				Includes improvements to support older, buggier OpenGL drivers
+				as well as newer ones.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">2 Apr 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i> Rewrote user interface, replacing 
+				old single-class based architecture with simpler
+				and more logical AppDelegate/WindowController/View architecture.
+			</p>
+			<p>
+				<i>(Mac)</i> Replaced groups of related menu command handlers
+				with single tag-based handlers.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">31 Mar 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i>  Instead of using an Open File panel to select a space,
+				uses a custom NSOutlineView.  In the short run this lets the Save Image
+				code take full advantage of Mac OS's built-in ability to return
+				to the last directory it saved an image in.  In the long run it paves
+				the way towards an iOS version, where the file system is effectively
+				hidden from the user.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">30 Mar 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i>  Simplified mouse handling.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">14 Mar 2011</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i>  GeometryGames-Win32-LoadEntryPoints.c
+				loads entry points based on OpenGL version and
+				available extensions.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">9 Mar 2011</td>
+		<td class="changes">
+			<p>
+				Added full-screen mode (publicly available).
+			</p>
+			<p>
+				Added dual-projector polarized stereo 3D,
+				for Manuel Arala Chaves at Atractor and 
+				Jouko Koskinen at Heureka.
+				It's not part of the public version.
+				To activate it, uncomment
+				#define RUN_DUAL_MONITOR_FULLSCREEN_STEREO_MAC
+				and/or
+				#define RUN_DUAL_MONITOR_FULLSCREEN_STEREO_WIN
+				and recompile.  Selecting "Full Screen" will still
+				give ordinary full-screen mode on a single-monitor system,
+				but on a dual-monitor system will give
+				dual-projector polarized stereo 3D.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Moved SetUpOneShader() to shared code,
+				and simplified parameter handling.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">24 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Replaced application-wide texture settings (for mipmapping, anisotropic filtering, etc.)
+				with per-texture settings.  The finer control lays the foundation
+				for iOS versions of the software, where trilinear mipmapping
+				and anisotropic filtering are computationally more expensive.
+			</p>
+			<p>
+				Moved SetUpOneTexture() to shared code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">15 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Having Copy/Save Image read the back/front buffer
+				was a bit dicey, so Copy/Save Image now
+				draws into an offscreen buffer instead.
+				The new system has the flexibility to draw the image 
+				at any size, not necessarily the view size,
+				even though there's still no user interface 
+				to set a custom size.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">11 Feb 2011</td>
+		<td class="changes">
+			<p>
+				Extension checking moved to shared Geometry Games utilities.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">31 Jan 2011</td>
+		<td class="changes">
+			<p>
+				New, simpler algorithm for handing window dimensions.
+			</p>
+			<p>
+				Eliminates ResizeGLView().
+			</p>
+			<p>
+				Removed and archived Preferences panel
+				along with corresponding Help pages.
+			</p>
+			<p>
+				Removed and archived compile-time option for touchscreen mode,
+				because touchscreen mode, which was written
+				for the Mineralien- und Mathematikmuseum,
+				was eventually incorporated into the stand-alone Kristalle software.
+			</p>
+			<p>
+				Show spaceship only in monoscopic 3D,
+				to avoid "seeing the sides of our own nose".
+				(Suppressing just the nearest image of the spaceship
+				is dicier than you'd thing -- see discussion
+				of "Hack A" and "Hack B" in correspondence
+				with James Jennings.)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">23 Jan 2011</td>
+		<td class="changes">
+			<p>
+				Uses shared GeometryGames-OpenGL.h.
+			</p>
+			<p>
+				Graphics code made OpenGL ES compatible.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">20 Jan 2011</td>
+		<td class="changes">
+			<p>
+				Removed GeoWall support (could eventually get replaced
+				with dual-projector full-screen mode if needed).  
+			</p>
+			<p>
+				Added greyscale vs. color anaglyphic 3D.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">13 Nov 2010</td>
+		<td class="changes">
+			<p>
+				Replaced version-based runtime choices
+				with extension-based runtime choices.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">10 Nov 2010</td>
+		<td class="changes">
+			<p>
+				Uses shared Geometry Games utilities.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">7 Jul 2010</td>
+		<td class="changes">
+			<p>
+				VAO usage now controlled by extension availability
+				instead of version number.  This allows greater VAO usage,
+				but more importantly it simplifies the code
+				by eliminating lots of #ifdef/#else/#endif blocks.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">4 Jun 2010</td>
+		<td class="changes">
+			<p>
+				Removed Smooth Edges from menu [and preference panel].
+				Multisample now gets used iff the program wants its
+				and the host computer provides it.
+			</p>
+			<p>
+				<i>(Mac)</i>
+				Minor changes:
+			</p>
+			<ul>
+				<li>
+					Saved NIB file as XIB file.
+				</li>
+				<li>
+					XIB file declares main view as subclass of NSOpenGLView
+					instead of subclass of NSView, which lets us
+					set the pixel format in Interface Builder,
+					and also affects what initializer get called.
+				</li>
+				<li>
+					Removed hack from reshape method (no longer needed).
+				</li>
+				<li>
+					Removed windowWillMiniaturize method
+					(the hack it contained is no longer needed).
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">30 May 2010</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i>
+				Includes copy of gl3.h bundled with source code.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">29 May 2010</td>
+		<td class="changes">
+			<p>
+				Added 3-sphere, projective 3-space and odd-order lens spaces.
+			</p>
+			<p>
+				Restricted Clifford parallels to 3-sphere.
+				(Now that the user stay in the central copy of the fundamental domain,
+				the Clifford parallels display consistently only in the 3-sphere.
+				The 3-sphere is the Clifford parallels natural home.)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 May 2010</td>
+		<td class="changes">
+			<p>
+				Spherical shader modified to shade back hemisphere correctly.
+			</p>
+			<p>
+				Accepts manifolds with no polyhedral Dirichlet domain,
+				to accommodate spaces like the 3-sphere and projective 3-space.
+			</p>
+			<p>
+				Always draws nearest image of spaceship.
+				(Previous hack had avoided user's left and right eyes
+				seeing different sides of the spaceship in stereo mode, 
+				but caused flickering when user flew along a wall
+				of the fundamental domain.  Thanks to James Jennings
+				for reporting this bug.)
+			</p>
+			<p>
+				Always keeps user in central copy of fundamental domain.
+				(Previous hack had allowed display of Clifford parallels
+				even in spherical spaces that didn't respect
+				the particular finite set of Clifford parallels
+				being displayed, but caused images of spaceship
+				to mysteriously come and go.  The code is cleaner
+				now that it display only objects that live
+				in the space itself, not in the universal cover.)
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 May 2010</td>
+		<td class="changes">
+			<p>
+				Colored spaceship's transom grey,
+				so that when it fills the horizon in a spherical space,
+				the user can tell that it's directed away from him/her
+				rather than towards him/her.  Thanks to James Jennings
+				for this suggestion.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.3</td>
+		<td class="date">6 May 2010</td>
+		<td class="changes">
+			<p>
+				Revised graphics code OpenGL 2.0 → OpenGL 3.0.
+				Compiles against the forward-compatible gl3.h
+				instead of the backward-compatible gl.h.
+			</p>
+			<p>
+				Removed all fixed-function (OpenGL 1) graphics code.
+			</p>
+			<p>
+				Removed "shaders" Help page.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">4 May 2010</td>
+		<td class="changes">
+			<p>
+				Far clipping plane adjusts in real-time to avoid
+				clipping the antipodal image of the user's spaceship
+				even when the user has chosen a field of view
+				greater than 90°.  Thanks to James Jennings
+				for bringing this problem to my attention,
+				as well as for various other improvements.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">14 Jan 2010</td>
+		<td class="changes">
+			<p>
+				Moved all colors from plain (r,g,b,α)
+				to premultiplied (αr, αg, αb, α)
+				for correct transparency and mipmap generation.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">12 Dec 2009</td>
+		<td class="changes">
+			<p>
+				Removed anisotropic filtering control from UI.
+			</p>
+			<p>
+				Replaced "anisotropic filtering" Help page
+				with "shaders" Help page.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Dec 2009</td>
+		<td class="changes">
+			<p>
+				Reorganized texture management.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 Nov 2009</td>
+		<td class="changes">
+			<p>
+				Added side-by-side stereoscopic 3D for display
+				on polarized lens systems like GeoWall.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">16 Nov 2009</td>
+		<td class="changes">
+			<p>
+				Revised ResizeGLView() for greater flexibility.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">5 Nov 2009</td>
+		<td class="changes">
+			<p>
+				Fixed error in call to glDrawRangeElements()
+				that had been causing the spinning Earth
+				to render incorrectly.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.2<br>OpenGL 1<br>archive</td>
+		<td class="date">29 Oct 2009</td>
+		<td class="changes">
+			<p>
+				Reorganized drawing code to use programmable vertex and fragment shaders (OpenGL 2.0)
+				instead of old-style fixed function pipeline (OpenGL 1.5).
+				New code uses generic vertex attributes for forward compatibility with OpenGL 3.2.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">29 Oct 2009</td>
+		<td class="changes">
+			<p>
+				Minor user interface improvements.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Oct 2009</td>
+		<td class="changes">
+			<p>
+				Set tiling radius and drawing radius
+				according to the SpaceType, to allow
+				deeper tilings in flat spaces than
+				in hyperbolic ones.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Oct 2009</td>
+		<td class="changes">
+			<p>
+				Added spaceship to mark user's position and orientation
+				in the manifold.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">26 Oct 2009</td>
+		<td class="changes">
+			<p>
+				<i>(Win)</i>
+				Simplified loading of Open GL entry points.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">21 Sep 2009</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i>
+				Added workaround for Mac OS 10.6 OpenGL performance issue
+					when fog is enabled.  [This issue disappared when Curved Spaces 
+					moved to programmable shaders (OpenGL 2.0), and
+					the workaround has been removed.]
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">20 Sep 2009</td>
+		<td class="changes">
+			<p>
+				<i>(Mac)</i>
+				Migrated NSString literals with UTF-8 to newer, simpler format.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">20 Sep 2009</td>
+		<td class="changes">
+			<p>
+				Rewrote menu translation code for Mac OS 10.6 compatibility.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 May 2009</td>
+		<td class="changes">
+			<p>
+				Moved responsibility for requesting a display redraw
+				from platform-dependent code to platform-independent code.
+			</p>
+			<p>
+				Minor changes for OpenGL ES compatibility.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">4 May 2009</td>
+		<td class="changes">
+			<p>
+				Minor maintenance on Win32 user interface
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.1</td>
+		<td class="date">22 Apr 2009</td>
+		<td class="changes">
+			<p>
+				Reorganized drawing code to use Vertex Buffer Objects
+				instead of display lists, because displays lists are
+				deprecated in standard OpenGL and don't exist at all
+				in OpenGL ES.  New drawing code almost doubles the frame rate
+				for large hyperbolic tilings (e.g. from 96fps to 186fps
+				for the default scene) on current hardware.  
+				Note to self:  glMultiDrawArrays() turned out to be 
+				a performance disaster.
+			</p>
+			<p>
+				Replaced OpenGL quads with generic OpenGL meshes.
+			</p>
+			<p>
+				Added data persistence ("user prefs" on Mac, 
+				"registry keys" on Windows) so KaleidoTile now remembers 
+				the multisampling ("Smooth Edges") setting from a previous session.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">10 Feb 2009</td>
+		<td class="changes">
+			<p>Simplified default language initialization on Mac OS X,
+				eliminating LanguageCode.strings files.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">28 Jan 2009</td>
+		<td class="changes">
+			<p>Vertex shader avoids negative fog coordinate,
+				which the MacBook OpenGL implementation
+				would take the absolute value of.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0.5</td>
+		<td class="date">9 Nov 2008</td>
+		<td class="changes">
+			<p>Trivial tidying of code.</p>
+			<p>Cosmetic improvements to user interface.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">17 Oct 2008</td>
+		<td class="changes">
+			<p>Avoids calling ErrorMessage() when the OpenGL context is active.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">8 Oct 2008</td>
+		<td class="changes">
+			<p>Provides a clear explanation if the application 
+			gets separated from its supporting files.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version"></td>
+		<td class="date">4 Sep 2008</td>
+		<td class="changes">
+			<p>Re-organized internationalization paradigm so that
+				<ul>
+					<li>
+						for each language, a single platform-independent file
+						contains all localized strings and
+					</li>
+					<li>
+						the Windows version no longer needs separate
+						.rc and .dll files for each language
+					</li>
+					<li>
+						(the Mac OS X version was already relieved 
+						of its language-specific NIB files at the previous revision).
+					</li>
+				</ul>
+			</p>
+			<p>Suspends continuous redraw when display is static.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0.4</td>
+		<td class="date">4 Aug 2008</td>
+		<td class="changes">
+			<p>Re-organized internationalization paradigm on Mac OS X,
+			to avoid maintaining multiple copies of the NIB file.</p>
+			<p>Added Japanese, thanks to Tatsu Takeuchi.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0.3</td>
+		<td class="date">8 May 2007</td>
+		<td class="changes">
+			<p><i>(Win)</i> Added <b>Copy Image</b> and <b>Save Image…</b>
+				that work correctly with multisampling.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0.2</td>
+		<td class="date">5 Apr 2007</td>
+		<td class="changes">
+			<p>Minor menu reorganization.</p>
+			<p>Added technical FAQs to website.</p>
+			<p><i>(Mac)</i> Modified image copying code to accommodate 
+			Mac OS 10.3.9.</p>
+			<p><i>(Win)</i> Revised error messages to refer to technical FAQ.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0.1</td>
+		<td class="date">6 Feb 2007</td>
+		<td class="changes">
+			<p>French added, thanks to Roland Lehoucq.</p>
+			<p>For consistency with the Torus Games, double-click
+			  as well as single-click works to exit navigational mode.</p>
+			<p>Documentation upgraded to HTML 4.0.1.</p>
+			<p>Discontinued Win95 version.</p>
+			<p>Fixed bug:  Avoids calling glDisable() for unsupported features. 
+			  Thanks to Paul Chavez for helping track this down.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">3.0</td>
+		<td class="date">8 Nov 2006</td>
+		<td class="changes">
+			<p>MacOS X version added.</p>
+			<p>Extensive internal re-organization to isolate platform-independent code from UI.</p>
+			<p>Help Book written.</p>
+			<p>Spinning Earth (as in Curved Spaces 1) added, with level-of-detail rendering.</p>
+			<p>Texturing respects aspect ratio to avoid "texture creep".</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">2.0</td>
+		<td class="date">20 Jun 2006</td>
+		<td class="changes">
+			<p>Faster tiling algorithm:  replaced O(n²) algorithm with O(n log n) algorithm.</p>
+			<p>Faster rendering algorithm:  2-3 times faster.</p>
+			<p>Smoother rendering algorithm:  cells added and removed on a frame-by-frame basis.</p>
+			<p>More flexible fog algorithm:  automatically adapts to depth of tiling.</p>
+			<p>Uses programmable vertex shader to move fog computation from CPU to GPU.</p>
+			<p>Walls of fundamental cell may be fully closed, fully open or anywhere in between.</p>
+			<p>Vertex figures displayed upon demand.</p>
+			<p>Clifford parallels displayed upon demand (in spherical spaces).</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="version">1.0</td>
+		<td class="date">~2000</td>
+		<td class="changes">
+			<p>Original Curved Spaces 1.0 release.</p>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

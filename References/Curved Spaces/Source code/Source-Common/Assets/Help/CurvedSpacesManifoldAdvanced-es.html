@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Ayuda de Curved Spaces — Crear espacios — Avanzado</title>
+	<link rel="StyleSheet" href="CurvedSpacesStyle.css" type="text/css">
+</head>
+
+<body>
+
+<div id="NavigationPanel">
+
+<p class="nav0"><a class="nav" href="CurvedSpacesWelcome-es.html">Bienvenida</a></p>
+
+<p class="nav0">Cómo hacer para…</p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesNavigation-es.html">volar la nave</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesWalls-es.html">retirar los muros</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesManifold-es.html">cambiar de espacio</a></p>
+	<p class="nav2"><span class="nav">avanzado</span></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesContent-es.html">elegir el contenido</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesExport-es.html">exportar la imagen</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesFurtherStudy-es.html">Saber más</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesAcknowledgments-es.html">Agradecimientos</a></p>
+
+<div id="FinePrint">
+
+<p>¿Todavía tienes preguntas?  Haz tu pregunta en
+<a class="finePrint" href="http://www.geometrygames.org/contact.html">la página de contacto de Geometry Games</a>
+para obtener una respuesta más o menos rápida.</p>
+
+<p>Curved Spaces es libremente distribuible bajo la Licencia Pública General de GNU.
+La versión actual está disponible en
+<a class="finePrint" href="http://www.geometrygames.org/CurvedSpaces">www.geometrygames.org/ CurvedSpaces</a>.</p>
+
+</div>
+
+</div>
+
+
+<div id="TextPanel">
+
+<h1 class="textTitle">
+	Cómo crear tu propio espacio
+	<br><i class="smaller">(para expertos en 3‑variedades)</i>
+</h1>
+
+<p>No estás limitado por los espacios de ejemplo que acompañan al programa.
+Para crear tu propio espacio, crea un texto plano
+que contenga una lista de matrices de tamaño 4×4 que generan 
+el grupo de transformaciones del recubridor universal del espacio deseado.
+Puedes ver, por ejemplo, los ficheros utilizados para:
+<ul>
+	<li>
+		el <a href="SampleTorus-es.html">
+		3‑toro cúbico</a>,
+	</li>
+	<li>
+		el <a href="SamplePDS-es.html">
+		espacio dodecaédrico de Poincaré</a>
+	</li>
+	<li>
+		el <a href="SampleHyperbolic-es.html">
+		dodecahedro de caras reflectantes y ángulos rectos</a>.
+	</li>
+</ul>
+Las matrices pertenecen al grupo O(4) para los espacios esféricos,
+O(3,1) para los espacios hiperbólicos (con el componente del tiempo al final)
+y al grupo análogo para los espacios planos.</p>
+
+<p>Curved Spaces usa la convención <i>(vector fila)(matriz)</i> 
+en vez de la convención <i>(matriz)(vector columna)</i>,
+así que las matrices pueden resultar las traspuestas del resultado esperado.
+En el caso de los espacios esféricos no tiene importancia porque la traspuesta
+es igual a la inversa, pero en los espacios planos e hiperbólicos
+es importante tenerlo en cuenta.</p>
+
+<p>Haz que tu editor de texto guarde las matrices de 4×4 como texto plano (archivo <i>.txt</i>),
+después cambia manualmente la extensión del archivo a <i>.gen</i>.
+Para abrir tu archivo, colócalo en la carpeta Sample Spaces y
+elige: <b>Espacio ▸ Cambiar de espacio…</b> desde dentro de Curved Spaces.</p>
+
+<p><i>Macintosh:</i>  Para llegar a la carpeta Sample Spaces,
+haz click con el botón derecho sobre el icono Curved Spaces
+y elige <b>Mostrar contenido del paquete</b>,
+después ve a la subcarpeta <i>Contents/Resources/Sample Spaces</i>.</p>
+
+<p><i>Windows:</i>  Para poder cambiar la extensión de archivo tienes 
+que tener habilitado poder ver las extensiones de archivo (en opciones de carpeta).</em>
+
+<p><small><i>GNU/Linux</i>: El procedimiento es igual que en Windows. 
+Probablemente necesitarás la versión 3.4.3 de Curved Spaces, compatible con OpenGL 2,
+que puedes encontrar en <a href="http://www.geometrygames.org/Archive">http://www.geometrygames.org/Archive</a>
+et que funciona sin fallos a través de Wine.</small></p>
+
+
+
+<p>Curved Spaces 3.0 incluye una biblioteca de espacios más pequeña y
+más racional que la que Curved Spaces 1.0 tenía.  Los espacios omitidos están disponibles
+<a href="http://www.geometrygames.org/contact.html">a petición</a>.</p>
+
+</div>
+
+</body>
+
+</html>

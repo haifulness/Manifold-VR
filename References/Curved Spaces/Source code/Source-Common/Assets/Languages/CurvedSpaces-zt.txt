@@ -1,0 +1,134 @@
+//	Program:
+//		English name:  CurvedSpaces
+//		Chinese name:  彎曲空間
+//
+//	Language:
+//		繁體中文
+//		Chinese (Mandarin, traditional characters)
+//
+//	Translator:
+//		鄒燕清
+//		Yanqing Zou   
+//
+//	Date:
+//		September 2012
+//
+//	© 2016 by Jeff Weeks
+//	See TermsOfUse.txt
+
+//	Application menu (Mac OS X)
+"Curved Spaces"			= "彎曲空間"
+"About Curved Spaces"	= "關於彎曲空間"	//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "關於彎曲空間…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "隱藏彎曲空間"
+"Hide Others"			= "隱藏其他"
+"Show All"				= "全部顯示"
+"Quit Curved Spaces"	= "退出彎曲空間"	//	Mac OS X
+
+//	File menu
+"File"					= "文件"
+"Open…"					= "打開…"
+"Open New…"				= "打開新的…"
+"Open Recent"			= "打開最近使用的"
+"Clear Menu"			= "清除菜單"
+"Export"				= "導出"
+"Copy Image"			= "拷貝圖像"
+"Save Image"			= "存儲圖像"	//	with no '…' on iOS
+"Save Image…"			= "存儲圖像…"	//	with '…' on Mac and Win
+"Exit"					= "退出"		//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= "空間"
+"Change Space…"			= "別的空間選取…"
+
+//	View menu
+"View"					= "顯示"
+"Centerpiece"			= "中心物體"
+"No Centerpiece"		= "無"	//	Please translate as "None", "Off", "De-activated", etc.
+"Earth"					= "地球"
+"Galaxy"				= "星系"
+"Gyroscope"				= "陀螺儀"
+"Spaceship"				= "太空飛船"
+"Color Coding"			= "彩色編碼"
+"Clifford Parallels"	= "克利福德平行線"
+"CliffordNone"			= "無"	//	= "None"
+"Bicolor"				= "雙色"
+"One Set"				= "一局"
+"Two Sets"				= "兩局"
+"Three Sets"			= "三局"
+"Vertex Figures"		= "頂點圖像"
+"Fog"					= "霧效果"
+"Full Screen"			= "全屏幕"
+"Stereoscopic 3D"		= "透視 3D"
+"No Stereo 3D"			= "關"	//	Please translate as "None", "Off", "Disactivated", etc.
+"Greyscale"				= "灰色"
+"Color"					= "彩色"
+
+//	Language menu
+"Language"				= "語言"
+
+//	Help menu
+"Help"					= "幫助"
+"Curved Spaces Help"	= "彎曲空間幫助"
+"Contact"				= "聯繫方式"
+"Translators"			= "譯者"
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= "選取空間"
+"OK"					= "好"
+"Cancel"				= "取消"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "彎曲空間"
+
+//	Save Panel (Mac OS)
+
+					// Save Image as TIFF File
+"SavePanelTitle"	= "存儲圖像為 TIFF"
+
+					// image
+"DefaultFileName"	= "圖像"
+
+					// Width:
+"WidthLabel"		= "寬度:"
+
+					// Height:
+"HeightLabel"		= "高度:"
+
+
+//	Error messages
+
+						// Your computer’s 3D graphics processor lacks OpenGL 2.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL1"		= "您的電腦顯卡不支持OpenGL 2。\n請從\n\n\twww.geometrygames.org/Archive\n\n下載舊的可用版本。"
+
+						// Your computer’s 3D graphics processor lacks OpenGL 3.3.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL2"		= "您的電腦顯卡不支持OpenGL 3.3。\n請從\n\n\twww.geometrygames.org/Archive\n\n下載舊的可用版本。"
+
+
+//	The error messages for missing 32-bit color or missing transparency are rarely needed.
+//	The Chinese translation may leave them in English.  Eventually they'll be eliminated, but not just yet.
+"ErrorColorTitle"		= "32-bit color required"
+"ErrorColorMessage"		= "Please go to Start : Control Panel : Display : Settings and select 32-bit color."
+"ErrorAlphaTitle"		= "Transparency support required"
+"ErrorAlphaMessage"		= "Your computer reports no transparency support, so this program cannot proceed.  Sorry."
+
+
+						// OpenGL driver required
+"ErrorDriverTitle"		= "需要 OpenGL 驅動"
+
+						// Can't find an “OpenGL driver” for your 3D graphics hardware.\nPlease see Question W2 on the Geometry Games FAQ at\n\n\twww.geometrygames.org/FAQ\n\nfor instructions on locating an OpenGL driver.
+"ErrorDriverMessage"	= "找不到您的3D顯卡的“OpenGL”驅動。\n請參考\n\n\twww.geometrygames.org/FAQ\n\n 常見問題 W2 的回答。"
+
+
+
+						// Curved Spaces 3.7.1
+"AboutBoxTitle"			= "彎曲空間3.7.1版"
+
+						// Curved Spaces 3.7.1\n\nChinese translation by Yanqing Zou\n\n© 2016 by Jeff Weeks\nwww.geometrygames.org/contact.html
+"AboutBoxMessage"		= "彎曲空間3.7.1版\n\n中文翻譯：鄒燕清\n\n© 2016 Jeff Weeks（韋傑夫）\nwww.geometrygames.org/contact.html"

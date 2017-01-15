@@ -1,0 +1,24 @@
+//	CurvedSpaces.rc
+//
+//	The English text within this file's dialogs serves only
+//	as placeholders, for convenience during development.
+//	The true text gets copied in at runtime,
+//	from language-specific dictionary files.
+//
+//	For use with the GoRC resource compiler, please save
+//	this file with Windows-style end-of-line markers (\r\n).
+//	If this file contains any non-ASCII text, be sure to save
+//	it as UTF-8 and include a BOM byte order mark.
+//
+//	© 2013 by Jeff Weeks
+//	See TermsOfUse.txt
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+#include "CurvedSpacesIDs.h"
+
+#define IDC_STATIC -1
+
+
+//	icon
+IDI_APP_ICON ICON "CurvedSpaces.ico"

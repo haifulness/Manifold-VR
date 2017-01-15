@@ -1,0 +1,4 @@
+﻿/* Localized versions of Info.plist keys (Japanese) */
+
+"CFBundleDisplayName"	= "Curved Spaces";	/* program's de facto filename (in Finder) */
+"CFBundleName"			= "Curved Spaces";	/* program's Application menu name         */

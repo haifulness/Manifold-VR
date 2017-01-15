@@ -1,0 +1,38 @@
+The utility functions are organized according to whether
+their declarations and/or their definitions are platform-independent.
+
+Geometry Games Utilities
+
+	GeometryGamesLocalization.c
+	GeometryGamesLocalization.h
+
+	GeometryGamesUtilities-Common.h
+		declares
+			functions with platform-independent implementations
+				defined in GeometryGamesUtilities-Common.c
+			functions with platform-dependent implementations
+				defined in GeometryGamesUtilities-iOS|Mac|Win.c
+	GeometryGamesUtilities-Common.c
+		implements platform-independent functions
+			declared in GeometryGamesUtilities-Common.h
+
+	GeometryGamesUtilities-iOS.h
+		declares functions with iOS-specific declarations
+	GeometryGamesUtilities-iOS.m
+		implements platform-dependent functions
+			declared in GeometryGamesUtilities-Common.h
+		as well as all functions declared in GeometryGamesUtilities-iOS.h
+
+	GeometryGamesUtilities-Mac.h
+		declares functions with Mac-specific declarations
+	GeometryGamesUtilities-Mac.m
+		implements platform-dependent functions
+			declared in GeometryGamesUtilities-Common.h
+		as well as all functions declared in  GeometryGamesUtilities-Mac.h
+
+	GeometryGamesUtilities-Win.h
+		declares functions with Win-specific declarations
+	GeometryGamesUtilities-Win.c
+		implements platform-dependent functions
+			declared in GeometryGamesUtilities-Common.h
+		as well as all functions declared in GeometryGamesUtilities-Win.h

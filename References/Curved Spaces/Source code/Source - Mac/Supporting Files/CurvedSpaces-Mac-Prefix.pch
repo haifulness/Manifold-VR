@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'CurvedSpaces-Mac' target in the 'CurvedSpaces-Mac' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
+
+
+//	In some future version of this app, we may want
+//	to support Metal only, OpenGL ES only, or both.
+//
+//		Note:	In a widely used app like KaleidoPaint
+//		I should wait a long time before compiling for Metal only,
+//		for the sake of people with older iOS devices.
+//
+//#define SUPPORT_METAL
+#define SUPPORT_OPENGL

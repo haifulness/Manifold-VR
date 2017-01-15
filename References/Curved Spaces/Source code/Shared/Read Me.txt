@@ -1,0 +1,97 @@
+Geometry Games software -- Read Me.txt
+
+Organization
+
+	Each Geometry Games app consists of several platform-dependent
+	user interfaces (for Android, iOS, Mac OS X and Windows) which access
+	the app's platform-independent internal code that handles the geometry
+	and draws the animations using OpenGL.  The internal code doesn't know or care
+	what platform it's running on.
+	
+	The files in each app's directory are organized as follows.
+	
+		Source-Common
+			Contains the app's platform-independent source material,
+			including C code, shaders, textures, language files and help files.
+			Note that the directory name "Source-Common" contains no spaces,
+			so that it will work with Eclipse/ADT for Android development;
+			when Android Studio someday arrives, it might tolerate spaces
+			in relative path names.
+		
+		Source - Android
+			Contains the app's Android-specific source material.
+		
+		Source - iOS
+			Contains the app's iOS-specific source material.
+		
+		Source - Mac
+			Contains the app's Mac-specific source material.
+
+		Source - Win
+			Contains the app's Windows-specific source material.
+
+OpenGL Conventions
+
+	For the most part OpenGL's conventions are simple and elegant.
+	However, my conventions differ from OpenGL's in two major ways.
+
+	Matrices
+
+		The OpenGL documentation
+
+			1.	writes matrix operations as
+					(second matrix)(first matrix)(column vector)
+
+			2.	indexes matrix elements in column-major order.
+
+		Unfortunately
+			Convention 2 contradicts C's built-in row-major ordering, while
+			Convention 1 contradicts my personal preference
+				to read equations left-to-right,
+		so within the Geometry Games code we adopt the alternative conventions to
+
+			1'.	write matrix operations as
+					(row vector)(first matrix)(second matrix)
+
+			2'.	index matrix elements in row-major order.
+
+		Computationally, of course, conventions 1 and 2 amount to exactly
+		the same thing as conventions 1' and 2', because each is the
+		transpose of the other.  The only differences lie in the aesthetics
+		of the documentation and the increased ease of defining matrices
+		(double foo[4][4] rather than double foo[16]) and accessing
+		their elements (foo[i][j] rather than foo[4*j + i]).
+
+	Coordinate Systems
+
+		OpenGL orients projection space with the observer
+		looking down the positive z-axis, with with x-axis
+		pointing to the right and the y-axis pointing up.
+		However, OpenGL forces no assumptions about the orientation
+		of world space;  the programmer is free to choose
+		his/her coordinate system and projection matrix
+		however s/he wishes.  So far so good.
+
+		The only complication is that the OpenGL documentation adopts
+		the unfortunate convention of looking down the negative z-axis,
+		and requiring that the projection matrix invert the z-axis when
+		passing from world to projection space.  The motivation for this
+		convention, as far as I can tell, was to use a right-handed
+		coordinate system ("like mathematicians use") in world space.
+		(Computer scientists seem to have suffered from a bit of
+		an inferiority complex back in the early days, or at least needed
+		to convince people that their work was intellectually rigorous.)
+		Fortunately the negative z-axis convention appears only in the
+		documentation and is not forced on us.
+
+		Within each Geometry Games app, we adopt the convention that
+
+			the x-axis points to the right
+			the y-axis points up
+			the z-axis points forward
+
+		in world space as well as projection space.
+
+Jeff Weeks
+www.geometrygames.org/contact.html
+August 2014

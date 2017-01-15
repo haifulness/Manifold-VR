@@ -1,0 +1,15 @@
+﻿#	Binary Tetrahedral Group
+#
+#	The quotient of the 3-sphere by the binary tetrahedral group
+#	gives the octahedral space.
+#	The matrix elements are rational numbers.
+
+  0.5 -0.5 -0.5  0.5
+  0.5  0.5 -0.5 -0.5
+  0.5  0.5  0.5  0.5
+ -0.5  0.5 -0.5  0.5
+
+  0.5 -0.5 -0.5 -0.5
+  0.5  0.5  0.5 -0.5
+  0.5 -0.5  0.5  0.5
+  0.5  0.5 -0.5  0.5

@@ -1,0 +1,113 @@
+//	Program:
+//		CurvedSpaces
+//
+//	Language:
+//		English
+//		English
+//
+//	Translator:
+//		N/A
+//
+//	Date:
+//		N/A
+//
+//	© 2016 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "About Curved Spaces"		//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "About Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Hide Curved Spaces"
+"Hide Others"			= "Hide Others"
+"Show All"				= "Show All"
+"Quit Curved Spaces"	= "Quit Curved Spaces"	//	Mac OS X
+
+//	File menu
+"File"					= "File"
+"Open…"					= "Open…"
+"Open New…"				= "Open New…"
+"Open Recent"			= "Open Recent"
+"Clear Menu"			= "Clear Menu"
+"Export"				= "Export"
+"Copy Image"			= "Copy Image"
+"Save Image"			= "Save Image"	//	with no '…' on iOS
+"Save Image…"			= "Save Image…"	//	with '…' on Mac and Win
+"Exit"					= "Exit"	//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= "Space"
+"Change Space…"			= "Change Space…"
+
+//	View menu
+"View"					= "View"
+"Centerpiece"			= "Centerpiece"
+"No Centerpiece"		= "None"
+"Earth"					= "Earth"
+"Galaxy"				= "Galaxy"
+"Gyroscope"				= "Gyroscope"
+"Spaceship"				= "Spaceship"
+"Color Coding"			= "Color Coding"
+"Clifford Parallels"	= "Clifford Parallels"
+"CliffordNone"			= "None"
+"Bicolor"				= "Bicolor"
+"Centerlines"			= "Centerlines"	//	not used in public version
+"One Set"				= "One Set"
+"Two Sets"				= "Two Sets"
+"Three Sets"			= "Three Sets"
+"Vertex Figures"		= "Vertex Figures"
+"Fog"					= "Fog"
+"Full Screen"			= "Full Screen"
+"Stereoscopic 3D"		= "Stereoscopic 3D"
+"No Stereo 3D"			= "None"
+"Greyscale"				= "Greyscale"
+"Color"					= "Color"
+
+//	Language menu
+"Language"				= "Language"
+
+//	Help menu
+"Help"					= "Help"
+"Curved Spaces Help"	= "Curved Spaces Help"
+"Contact"				= "Contact"
+"Translators"			= "Translators"
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= "Choose a Space"
+"OK"					= "OK"
+"Cancel"				= "Cancel"
+
+
+//	Window title
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (Mac OS)
+"SavePanelTitle"	= "Save Image as TIFF File"
+"DefaultFileName"	= "image"
+"WidthLabel"		= "Width:"
+"HeightLabel"		= "Height:"
+
+
+//	Error messages
+
+"ErrorPleaseUseGL1"		= "Your computer’s 3D graphics processor lacks OpenGL 2.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience."
+"ErrorPleaseUseGL2"		= "Your computer’s 3D graphics processor lacks OpenGL 3.3.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience."
+
+"ErrorColorTitle"		= "32-bit color required"
+"ErrorColorMessage"		= "Please go to Start : Control Panel : Display : Settings and select 32-bit color."
+
+"ErrorAlphaTitle"		= "Transparency support required"
+"ErrorAlphaMessage"		= "Your computer reports no transparency support, so this program cannot proceed.  Sorry."
+
+"ErrorDriverTitle"		= "OpenGL driver required"
+"ErrorDriverMessage"	= "Can't find an “OpenGL driver” for your 3D graphics hardware.\nPlease see Question W2 on the Geometry Games FAQ at\n\n\twww.geometrygames.org/FAQ\n\nfor instructions on locating an OpenGL driver."
+
+"AboutBoxTitle"			= "Curved Spaces 3.7.1"
+"AboutBoxMessage"		= "Curved Spaces 3.7.1\n\n© 2016 by Jeff Weeks\nwww.geometrygames.org/contact.html"

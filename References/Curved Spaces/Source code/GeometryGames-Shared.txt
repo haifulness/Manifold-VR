@@ -1,0 +1,5 @@
+Note to myself:
+
+This program also requires the source files from the 
+~/software/Shared/ folder.  Be sure to include the Shared folder 
+whenever I post this project's source code to the Geometry Games web site.

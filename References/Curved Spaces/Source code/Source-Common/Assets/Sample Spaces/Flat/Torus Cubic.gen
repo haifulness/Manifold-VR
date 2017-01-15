@@ -1,0 +1,21 @@
+﻿#	Cubic 3-Torus
+#
+#	The quotient of E³ by unit translations
+#	along the x-, y- and z-axes is a cubic 3-torus.
+#	The first three elements in the bottom row
+#	of each matrix define the translation vectors.
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  0.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  1.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  0.0  1.0  1.0 

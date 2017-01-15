@@ -1,0 +1,177 @@
+//	Program:
+//		CurvedSpaces
+//
+//	Language:
+//		<name in the language itself>
+//		<name in English>
+//
+//	Translator:
+//		<name of translator>
+//
+//	Date:
+//		<month and year of translation>
+//
+//	© 2016 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+//	Notes to translator:
+//
+//	1.	This is a plain text file (UTF-8 encoding),
+//		which you can edit in a plain text editor.
+//		You don't need anything fancy like Microsoft Word
+//		(but if you do use Word, please save your work
+//		as plain UTF-8 text).
+//
+//		This text will look pretty if you set your editor to use
+//		a.	a fixed-width font, and
+//		b.	4-space tab stops
+//		but this is only for your own aesthetic pleasure,
+//		and has no effect on the final output.
+//
+//	2.	For each expression in English on the left side of an '=',
+//		please insert the <LANGUAGE NAME> equivalent on the right side of the '='.
+//		For example,
+//
+//			"house"		= ""
+//
+//		might become
+//
+//			"house"		= "<INSERT TRANSLATION>"
+//
+//	3.	In the other languages (French, Italian, etc.)
+//		the translators kept the name "Curved Spaces" as it is
+//		but you are welcome to create a <LANGUAGE NAME> equivalent if you prefer.
+//		It's really an aesthetic question, so please use your judgment.
+
+//	Application menu (Mac OS X)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= ""	//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "…"	//	with '…' on Windows
+"Hide Curved Spaces"	= ""
+"Hide Others"			= ""
+"Show All"				= ""
+"Quit Curved Spaces"	= ""	//	Mac OS X
+
+//	File menu
+"File"					= ""
+"Open…"					= ""
+"Open New…"				= ""
+"Open Recent"			= ""
+"Clear Menu"			= ""
+"Export"				= ""
+"Copy Image"			= ""
+"Save Image"			= ""	//	with no '…' on iOS
+"Save Image…"			= "…"	//	with '…' on Mac and Win
+"Exit"					= ""	//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= ""
+"Change Space…"			= "…"
+
+//	View menu
+"View"					= ""
+"Centerpiece"			= ""
+"No Centerpiece"		= ""	//	Please translate as "None", "Off", "De-activated", etc.
+"Earth"					= ""
+"Galaxy"				= ""
+"Gyroscope"				= ""
+"Spaceship"				= ""
+"Color Coding"			= ""
+"Clifford Parallels"	= ""
+"CliffordNone"			= ""	//	= "None"
+"Bicolor"				= ""
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= ""
+"Two Sets"				= ""
+"Three Sets"			= ""
+"Vertex Figures"		= ""
+"Fog"					= ""
+"Full Screen"			= ""	//	Windows only
+								//		for a translation of "Full Screen",
+								//		see "00 Starter Code/scraps/fullscreen translations.txt"
+"Stereoscopic 3D"		= ""
+"No Stereo 3D"			= ""	//	Please translate as "None", "Off", "De-activated", etc.
+"Greyscale"				= ""
+"Color"					= ""
+
+//	Language menu
+"Language"				= ""
+
+//	Help menu
+"Help"					= ""
+"Curved Spaces Help"	= ""
+"Contact"				= ""
+"Translators"			= ""
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= ""
+"OK"					= ""
+"Cancel"				= ""
+
+
+//	Note to the translator:  From here on, the text to be translated
+//	appears in the line *above* the empty quotes.  So if you saw
+//
+//							//house
+//		"LabelDwelling"		= ""
+//
+//	you'd want to ignore "LabelDwelling" and translate "house", like this:
+//
+//							//house
+//		"LabelDwelling"		= "<INSERT TRANSLATION HERE>"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= ""
+
+//	Save Panel (Mac OS)
+
+					// Save Image as TIFF File
+"SavePanelTitle"	= ""
+
+					// image
+"DefaultFileName"	= ""
+
+					// Width:
+"WidthLabel"		= ":"
+
+					// Height:
+"HeightLabel"		= ":"
+
+
+//	Error messages
+
+						// Your computer’s 3D graphics processor lacks OpenGL 2.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL1"		= ""
+
+						// Your computer’s 3D graphics processor lacks OpenGL 3.3.\nPlease use the older version of this program available from\n\n\twww.geometrygames.org/Archive\n\nSorry for the inconvenience.
+"ErrorPleaseUseGL2"		= " … OpenGL 3.3 …"
+
+
+//	The error messages for missing 32-bit color or missing transparency are rarely needed.
+//	New translations may leave them in English.  Eventually they'll be eliminated, but not just yet.
+"ErrorColorTitle"		= "32-bit color required"
+"ErrorColorMessage"		= "Please go to Start : Control Panel : Display : Settings and select 32-bit color."
+"ErrorAlphaTitle"		= "Transparency support required"
+"ErrorAlphaMessage"		= "Your computer reports no transparency support, so this program cannot proceed.  Sorry."
+
+
+						// OpenGL driver required
+"ErrorDriverTitle"		= ""
+
+						// Can't find an “OpenGL driver” for your 3D graphics hardware.\nPlease see Question W2 on the Geometry Games FAQ at\n\n\twww.geometrygames.org/FAQ\n\nfor instructions on locating an OpenGL driver.
+"ErrorDriverMessage"	= ""
+
+
+						// Curved Spaces 3.7.1
+"AboutBoxTitle"			= ""
+
+						// Curved Spaces 3.7.1\n\n<LANGUAGE> translation by <TRANSLATOR'S NAME>\n\n© 2016 by Jeff Weeks\nwww.geometrygames.org/contact.html
+"AboutBoxMessage"		= ""

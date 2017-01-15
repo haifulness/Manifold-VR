@@ -1,0 +1,14 @@
+GeometryGamesPortfolioController
+GeometryGamesThumbnail
+	get used only in apps like KaleidoPaint and 4D Draw
+	that let the user create a portfolio of drawings.
+
+GeometryGamesViewController
+GeometryGamesViewiOS
+	get used as the root view controller in single-controller apps
+	like Starter Code and Torus Games, and also as a child view controller
+	in portfolio-based apps like KaleidoPaint and 4D Draw.
+
+GeometryGamesLanguageChoiceController
+GeometryGamesWebViewController
+	may be used in all Geometry Games apps.

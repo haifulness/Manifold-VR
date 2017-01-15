@@ -1,0 +1,5 @@
+Please see the file "Shared/Read Me.txt" for an explanation of
+
+  - the organization of this app's code
+
+  - this app's OpenGL (ES) conventions

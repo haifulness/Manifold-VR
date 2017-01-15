@@ -1,0 +1,8 @@
+#	Projective 3-Space
+#
+#	Projective 3-Space is the quotient of the 3-sphere by the antipodal map.
+
+ -1  0  0  0
+  0 -1  0  0
+  0  0 -1  0
+  0  0  0 -1

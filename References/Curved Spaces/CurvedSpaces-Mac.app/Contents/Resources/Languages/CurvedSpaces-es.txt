@@ -1,0 +1,122 @@
+//	Program:
+//		CurvedSpaces
+//
+//	Language:
+//		Español
+//		Spanish
+//
+//	Translator:
+//		Alberto Pino Blanco
+//
+//	Date:
+//		April 2012
+//
+//	© 2015 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu (Mac OS X)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "Acerca de Curved Spaces"	//	with no '…' on Mac OS X
+"About Curved Spaces…"	= "Sobre Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Ocultar Curved Spaces"
+"Hide Others"			= "Ocultar otros"
+"Show All"				= "Mostrar todo"
+"Quit Curved Spaces"	= "Salir de Curved Spaces"	//	Mac OS X (was "Cerrar Curved Spaces")
+
+//	File menu
+"File"					= "Archivo"
+"Open…"					= "Abrir..."
+"Open New…"				= "Abrir nuevo..."
+"Open Recent"			= "Abrir reciente"
+"Clear Menu"			= "Limpiar menú"
+"Export"				= "Exportar"
+"Copy Image"			= "Copiar imagen"
+"Save Image"			= "Guardar imagen"	//	with no '…' on iOS
+"Save Image…"			= "Guardar imagen…"	//	with '…' on Mac and Win
+"Exit"					= "Salir"	//	Windows
+
+//	Space menu (Mac OS)
+"Space"					= "Espacio"
+"Change Space…"			= "Cambiar de espacio…"
+
+//	View menu
+"View"					= "Vista"
+"Centerpiece"			= "Pieza central"
+"No Centerpiece"		= "Ninguna"
+"Earth"					= "Tierra"
+"Galaxy"				= "Galaxia"
+"Gyroscope"				= "Giroscopio"
+"Spaceship"				= "Nave espacial"
+"Color Coding"			= "Colorear caras asociadas"
+"Clifford Parallels"	= "Paralelas de Clifford"
+"CliffordNone"			= "Ningunas"	//	= "None"
+"Bicolor"				= "Bicolores"
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= "Un conjunto"
+"Two Sets"				= "Dos conjuntos"
+"Three Sets"			= "Tres conjuntos"
+"Vertex Figures"		= "Figuras de vértice"
+"Fog"					= "Niebla"
+"Full Screen"			= "Pantalla completa"
+"Stereoscopic 3D"		= "3D estereoscópico"
+"No Stereo 3D"			= "No"	//	or "Apagado", but "No" is better
+"Greyscale"				= "Escala de grises"
+"Color"					= "Color"
+
+//	Language menu
+"Language"				= "Idioma"
+
+//	Help menu
+"Help"					= "Ayuda"
+"Curved Spaces Help"	= "Ayuda Curved Spaces "
+"Contact"				= "Contacto"
+"Translators"			= "Traductores"
+"NSF"					= "NSF"
+
+//	QuickTime menu (normally hidden)
+"QuickTime"				= "QuickTime"
+
+//	Space Selection Sheet
+"Choose a Space"		= "Escoge un espacio"
+"OK"					= "OK"
+"Cancel"				= "Cancelar"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (Mac OS)
+
+					// Save Image as TIFF File
+"SavePanelTitle"	= "Guardar como imagen TIFF (alta resolución)"
+
+					// image
+"DefaultFileName"	= "imagen"
+
+					// Width:
+"WidthLabel"		= "Ancho:"
+
+					// Height:
+"HeightLabel"		= "Alto:"
+
+
+//	Error messages
+
+"ErrorPleaseUseGL1"		= "El procesador gráfico 3D de tu ordenador no soporta OpenGL 2.\nPor favor usa la antigua versión del programa que se encuentra en\n\n\twww.geometrygames.org/Archive\n\nDisculpa por las molestias."
+"ErrorPleaseUseGL2"		= "El procesador gráfico 3D de tu ordenador no soporta OpenGL 3.3.\nPor favor usa la antigua versión del programa que se encuentra en\n\n\twww.geometrygames.org/Archive\n\nDisculpa por las molestias."
+
+"ErrorColorTitle"		= "Se requieren 32-bit de color"
+"ErrorColorMessage"		= "Por favor ve a Inicio : Panel de Control : Display : Configuración y selecciona 32-bit de color.\n"
+
+"ErrorAlphaTitle"		= "Se requiere soporte de transparencia"
+"ErrorAlphaMessage"		= "Su ordenador no tiene soporte para transparencia, así que este programa no puede continuar. Lo siento."
+
+"ErrorDriverTitle"		= "Controlador de OpenGL requerido"
+"ErrorDriverMessage"	= "No se puede encontrar el controlador de OpenGL para tu tarjeta grafica.\nPor favor vea la pregunta W2 en el FAQ de Geometry Games en\n\n\twww.geometrygames.org/FAQ\n\ndonde vera las instrucciones para localizar su controlador para OpenGL."
+
+"AboutBoxTitle"			= "Curved Spaces 3.7.0"
+"AboutBoxMessage"		= "Curved Spaces 3.7.0\n\nTraducido al español por Alberto Pino Blanco\n\n© 2015 por Jeff Weeks\nwww.geometrygames.org/contact.html"

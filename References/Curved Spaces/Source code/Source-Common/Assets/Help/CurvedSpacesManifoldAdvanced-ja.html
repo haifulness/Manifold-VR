@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Curved Spaces の使い方：宇宙空間設定：詳細空間設定</title>
+	<link rel="StyleSheet" href="CurvedSpacesStyle.css" type="text/css">
+</head>
+
+<body>
+
+<div id="NavigationPanel">
+
+<p class="nav0"><a class="nav" href="CurvedSpacesWelcome-ja.html">ようこそ</a></p>
+
+<p class="nav0">操作方法：</p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesNavigation-ja.html">宇宙船の操縦法</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesWalls-ja.html">壁開口のサイズ調節</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesManifold-ja.html">宇宙空間設定</a></p>
+	<p class="nav2"><span class="nav">詳細空間設定</span></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesContent-ja.html">作画内容設定</a></p>
+
+<p class="nav1"><a class="nav" href="CurvedSpacesExport-ja.html">画像のエクスポート</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesFurtherStudy-ja.html">さらに勉強したい方へ</a></p>
+
+<p class="nav0"><a class="nav" href="CurvedSpacesAcknowledgments-ja.html">謝辞</a></p>
+
+<div id="FinePrint">
+
+<p>さらに質問のある方は、
+<a class="finePrint" href="http://www.geometrygames.org/contact.html">Geometry Games Contact Page</a>
+に記載されたメール・アドレスまでお寄せください。</p>
+
+<p>Curved Spaces は、GNU General Public License に定められた条件の下で、自由に配布することができます。最新ヴァージョンは
+<br><a class="finePrint" href="http://www.geometrygames.org/CurvedSpaces">www.geometrygames.org/CurvedSpaces</a>
+<br>よりダウンロードしてください。</p>
+
+</div>
+
+</div>
+
+
+<div id="TextPanel">
+
+<h1 class="textTitle">詳細空間設定：新しい空間を定義するには？<br>
+<i class="smaller">（３次元多様体の専門家対象）</i>
+</h1>
+
+<p>
+Curved Spaces を使って、予め組み込まれている、Sample Spaces 以外の空間を探険するには、自分で新しい空間の、定義ファイルを作成します。それぞれの空間は、その被覆変換群（covering transformation group）を指定することによって、特定できるので、定義ファイルには、被覆変換群の、4×4 生成行列のリストを、プレーン・テキスト形式で保存します。Sample Spaces の中の、次の３例を参考にしてください：
+</p>
+<ul>
+  <li>
+    <a href="SampleTorus-ja.html">３次元トーラス</a>　（曲率ゼロ）
+  </li>
+  <li>
+    <a href="SamplePDS-ja.html">ポアンカレの正１２面体空間</a>　（曲率正）
+  </li>
+  <li>
+    <a href="SampleHyperbolic-ja.html">鏡映直角正１２面体</a>　（曲率負）
+  </li>
+</ul>
+<p>
+曲率が正の球面空間では、生成行列は４次元直交群 O(4) の元ですが、曲率が負の双曲型空間では、生成行列は３＋１次元ローレンツ群 O(3,1) の元です（このとき第４成分が、時間的成分になります）。曲率がゼロの平坦空間では、生成行列は３＋１次元のアフィン変換行列で、４列目が [0,0,0,1]<sup>T</sup> になっているものになります。
+</p>
+
+<p>
+Curved Spaces では、行列のベクトルへの作用を表すのに、<i>(行列)(列ベクトル)</i> 表記ではなく、<i>(行ベクトル)(行列)</i> 表記を採用しています。前者の表記に慣れている人には、行列が、予想したものの、転置行列になっているかもしれません。球面空間では、生成行列の転置行列は、もとの行列の逆行列になっているので、やはり生成行列となりますから、この差異は問題になりませんが、平坦空間、および双曲型空間では、正しい表記を用いることが重要です。
+</p>
+
+<p>
+テキスト・エディタで、4×4 生成行列のリストを書き込んだファイルを、まずプレーン・テキスト形式（<i>.txt</i>）で保存します。しかる後に、ファイルの拡張子を <i>.gen</i> に書き換えてください。作成した空間ファイルを開くには Sample Spaces フォルダに空間ファイルを保存し、アプリケーションの「<b>空間</b>」メニューより「<b>別の空間を選択する…</b>」を選択して、リストより貴方の空間ファイルを選びます。
+</p>
+
+<p>
+<i>Macintosh</i>：Samples Spaces フォルダを表示するには、Curved Spaces のアイコンを右クリックし、「<b>パッケージの内容を表示</b>」を選択します。Samples Spaces フォルダは、Contents フォルダの、Resources フォルダ内にあります。
+</p>
+
+<p>
+Curved Spaces 3.0 は Curved Spaces 1.0 に比べ、Sample Spaces フォルダ内に含まれる空間のライブラリが、より合理化され、簡略化されたものになっています。削除された空間ファイルが欲しい方は、<a href="http://www.geometrygames.org/contact.html">ご連絡ください</a>.
+</p>
+
+</div>
+
+</body>
+
+</html>
