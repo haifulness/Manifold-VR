@@ -1,0 +1,32 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX TITAN X (ID=0x17c2)
+    Vendor:   NVIDIA
+    VRAM:     12243 MB
+    Driver:   21.21.13.6909
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.077 seconds
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\htran41\Documents\GitHub\Manifold-VR\Roll-A-Ball-VR\roll_a_ball_vr_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1600 60Hz; virtual: 2560x1600 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Overlay is using an unsupported compressed pixel format.UnloadTime: 0.592989 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 798 -> priority: 1 
+  Thread -> id: 1958 -> priority: 1 
