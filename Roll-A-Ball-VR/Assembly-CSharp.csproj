@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6DB00C44-E2BA-2D2E-35F2-D6D3E628602F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EditorVR\Action Maps\DirectSelectInput.cs" />
+     <Compile Include="Assets\EditorVR\Action Maps\Standard.cs" />
+     <Compile Include="Assets\EditorVR\Action Maps\TrackedObject.cs" />
+     <Compile Include="Assets\EditorVR\Action Maps\UIActions.cs" />
+     <Compile Include="Assets\EditorVR\libs\UnityOctree\Scripts\BoundsOctree.cs" />
+     <Compile Include="Assets\EditorVR\libs\UnityOctree\Scripts\BoundsOctreeNode.cs" />
+     <Compile Include="Assets\EditorVR\libs\UnityOctree\Scripts\PointOctree.cs" />
+     <Compile Include="Assets\EditorVR\libs\UnityOctree\Scripts\PointOctreeNode.cs" />
+     <Compile Include="Assets\EditorVR\libs\VRLineRenderer\Scripts\MeshChain.cs" />
+     <Compile Include="Assets\EditorVR\libs\VRLineRenderer\Scripts\VRLineRenderer.cs" />
+     <Compile Include="Assets\EditorVR\libs\VRLineRenderer\Scripts\VRTrailRenderer.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\DeviceProfiles\OpenVRProfile.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\DeviceProfiles\Xbox360MacProfile.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\DeviceProfiles\Xbox360WinProfile.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\ExecuteAllEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\InputManager.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\InputManagerEndFrame.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\JoystickInputToEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\KeyboardInputToEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\MouseInputToEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\TouchInputToEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\FakePrototypeStuff\VRInputToEvents.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\ActionMap.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\ActionMapInput.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\ButtonAxisSource.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\ControlBinding.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\ControlScheme.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\DeviceSlot.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Actions\InputAction.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Cursor.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Gamepad.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\GestureEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Joystick.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\JoystickControlMapping.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\JoystickProfile.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\KeyEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Keyboard.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\KeyboardEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Mouse.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Pointer.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\PointerClickEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\PointerControl.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\PointerEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\PointerMoveEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Sensor.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\TextEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Touch.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\TouchControl.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\TouchEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\Touchscreen.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core.Extensions\VirtualJoystick.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\GenericControlEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\IInputConsumer.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputConsumerCallback.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputConsumerNode.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputControl.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputControlData.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputControlDescriptor.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputControlProvider.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputDevice.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputDeviceManager.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputDeviceProfile.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputDeviceUtility.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputEvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputEventPool.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputEventQueue.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputState.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\InputSystem.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Core\SerializableType.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Players\ActionSlot.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Players\PlayerDeviceAssignment.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Players\PlayerHandle.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Players\PlayerHandleManager.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\Players\PlayerInput.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\VREvent.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Input\VRInputDevice.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Utilities\ArrayHelpers.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Utilities\EnumHelpers.cs" />
+     <Compile Include="Assets\EditorVR\libs\input-prototype\Utilities\Range.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRBoundary.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDebugHeadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRHaptics.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRHapticsClip.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRInput.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVROnCompleteListener.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPlugin.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRProfile.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTouchpad.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRCubemapCapture.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRDebugInfo.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRModeParms.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRMonoscopic.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRRTOverlayConnector.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRResetOrientation.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Grab.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Scripts\TouchController.cs" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChainAlpha.shader" />
+     <None Include="Assets\EditorVR\Shaders\VerticalGradient.shader" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChainAdd.shader" />
+     <None Include="Assets\EditorVR\Shaders\Cone.shader" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChainMax.shader" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChain.cginc" />
+     <None Include="Assets\EditorVR\Shaders\StandardOverlay.shader" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChainMin.shader" />
+     <None Include="Assets\EditorVR\Models\Hydra\attribution.txt" />
+     <None Include="Assets\EditorVR\libs\VRLineRenderer\Shaders\MeshChainSubtract.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
